@@ -17,8 +17,70 @@
 //    /  \
 //   15   7
 //返回它的最大深度 3 。
-//
-//来源：力扣（LeetCode）
-//链接：https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof
-//著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
 import Foundation
+/**
+ 每个节点 都要当根节点 ，这点意识不到的就会绕路😓
+ */
+class Solution1 {
+    func maxDepth(_ root: TreeNode?) -> Int {
+
+        if root == nil {
+            
+            return 0;
+        }
+        
+        
+        let leftCount = maxDepth(root?.left)
+        let rightCount = maxDepth(root?.right)
+        
+        return leftCount > rightCount ? leftCount+1 : rightCount+1
+    }
+    
+    
+    //        let leftCount = postorder(count: 1, root: root?.left,isLeft: true)
+    //        let rightCount = postorder(count: 1, root: root?.right,isLeft: false)
+    
+    func postorder(count:Int,root: TreeNode?,isLeft:Bool) -> Int {
+        
+        if root == nil {
+            
+            return count
+        }
+        
+        let length = count+1
+        
+        var node :TreeNode?;
+        var isLeft = isLeft
+       
+        if isLeft {
+          
+            if root?.left == nil && root!.right != nil {
+                
+                node = root?.right
+                isLeft = false
+            }else{
+                                
+                node = root?.left
+            }
+    
+        }else{
+            
+            if root?.right == nil && root!.left != nil {
+                
+                node = root?.left
+            }else{
+                
+                node = root?.right
+                isLeft = true
+            }
+        }
+        return  postorder(count: length, root: node,isLeft: isLeft);
+
+    }
+    
+    
+}
+
+
+

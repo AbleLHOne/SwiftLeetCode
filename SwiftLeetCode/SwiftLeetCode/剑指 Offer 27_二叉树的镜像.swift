@@ -48,9 +48,9 @@ class Solution {
         queue.append(root!)
         while (queue.count != 0 ) {
             
-         let node:TreeNode = queue.remove(at: 0) as! TreeNode;
+        let node:TreeNode = queue.remove(at: 0) as! TreeNode;
         
-         print(node.val)
+        print(node.val)
     
         let temp = node.left;
         node.left = node.right;

@@ -36,9 +36,9 @@ let node8:TreeNode = TreeNode(8);
 node1.left = node2
 node1.right = node3
 node2.left = node4
-node2.right = node5
-node3.left = node6
-node3.right = node7
-node4.left = node8
-solution.mirrorTree(node1)
- 
+node4.right = node8
+//solution.mirrorTree(node1)
+
+let solution1 = Solution1()
+
+print("深度 ==",solution1.maxDepth(node1))
