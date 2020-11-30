@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F669A9672574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */; };
+		F669A96A2574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */; };
 		F695DA462571F481004ECB52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695DA452571F481004ECB52 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 27_二叉树的镜像.swift"; sourceTree = "<group>"; };
+		F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 55 - I. 二叉树的深度.swift"; sourceTree = "<group>"; };
 		F695DA422571F481004ECB52 /* SwiftLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F695DA452571F481004ECB52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				F695DA452571F481004ECB52 /* main.swift */,
+				F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */,
+				F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */,
 			);
 			path = SwiftLeetCode;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F669A9672574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift in Sources */,
 				F695DA462571F481004ECB52 /* main.swift in Sources */,
+				F669A96A2574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
