@@ -12,6 +12,13 @@
 		F669A9672574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */; };
 		F669A96A2574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */; };
 		F695DA462571F481004ECB52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695DA452571F481004ECB52 /* main.swift */; };
+		F6C0F740258F1A4700B4C3AA /* 冒泡.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F73F258F1A4700B4C3AA /* 冒泡.swift */; };
+		F6C0F74A258F3A6B00B4C3AA /* 选择.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F749258F3A6B00B4C3AA /* 选择.swift */; };
+		F6C0F74D258F3BB000B4C3AA /* 堆排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F74C258F3BB000B4C3AA /* 堆排序.swift */; };
+		F6C0F750258F618700B4C3AA /* 插入.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F74F258F618700B4C3AA /* 插入.swift */; };
+		F6C0F755258F6B5100B4C3AA /* 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F754258F6B5100B4C3AA /* 二分查找.swift */; };
+		F6C0F759258F6F3400B4C3AA /* 合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F758258F6F3400B4C3AA /* 合并两个有序数组.swift */; };
+		F6C0F75E258F752900B4C3AA /* 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F75D258F752900B4C3AA /* 合并两个有序链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +40,13 @@
 		F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 55 - I. 二叉树的深度.swift"; sourceTree = "<group>"; };
 		F695DA422571F481004ECB52 /* SwiftLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F695DA452571F481004ECB52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F6C0F73F258F1A4700B4C3AA /* 冒泡.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "冒泡.swift"; sourceTree = "<group>"; };
+		F6C0F749258F3A6B00B4C3AA /* 选择.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "选择.swift"; sourceTree = "<group>"; };
+		F6C0F74C258F3BB000B4C3AA /* 堆排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "堆排序.swift"; sourceTree = "<group>"; };
+		F6C0F74F258F618700B4C3AA /* 插入.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "插入.swift"; sourceTree = "<group>"; };
+		F6C0F754258F6B5100B4C3AA /* 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二分查找.swift"; sourceTree = "<group>"; };
+		F6C0F758258F6F3400B4C3AA /* 合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "合并两个有序数组.swift"; sourceTree = "<group>"; };
+		F6C0F75D258F752900B4C3AA /* 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "合并两个有序链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +80,51 @@
 			isa = PBXGroup;
 			children = (
 				F695DA452571F481004ECB52 /* main.swift */,
+				F6C0F752258F620100B4C3AA /* 树 */,
+				F6C0F73E258F1A3100B4C3AA /* 排序 */,
+				F6C0F757258F6F1A00B4C3AA /* 数组 */,
+				F6C0F75C258F751400B4C3AA /* 链表 */,
+			);
+			path = SwiftLeetCode;
+			sourceTree = "<group>";
+		};
+		F6C0F73E258F1A3100B4C3AA /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				F6C0F73F258F1A4700B4C3AA /* 冒泡.swift */,
+				F6C0F749258F3A6B00B4C3AA /* 选择.swift */,
+				F6C0F74C258F3BB000B4C3AA /* 堆排序.swift */,
+				F6C0F74F258F618700B4C3AA /* 插入.swift */,
+				F6C0F754258F6B5100B4C3AA /* 二分查找.swift */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		F6C0F752258F620100B4C3AA /* 树 */ = {
+			isa = PBXGroup;
+			children = (
 				F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */,
 				F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */,
 				F647535F257A32BD004AEEEA /*  相同的树.swift */,
 				F647536E257E1D4E004AEEEA /* 二叉树的最小深度.swift */,
 			);
-			path = SwiftLeetCode;
+			path = "树";
+			sourceTree = "<group>";
+		};
+		F6C0F757258F6F1A00B4C3AA /* 数组 */ = {
+			isa = PBXGroup;
+			children = (
+				F6C0F758258F6F3400B4C3AA /* 合并两个有序数组.swift */,
+			);
+			path = "数组";
+			sourceTree = "<group>";
+		};
+		F6C0F75C258F751400B4C3AA /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				F6C0F75D258F752900B4C3AA /* 合并两个有序链表.swift */,
+			);
+			path = "链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,10 +184,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C0F755258F6B5100B4C3AA /* 二分查找.swift in Sources */,
 				F669A9672574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift in Sources */,
 				F695DA462571F481004ECB52 /* main.swift in Sources */,
+				F6C0F75E258F752900B4C3AA /* 合并两个有序链表.swift in Sources */,
+				F6C0F750258F618700B4C3AA /* 插入.swift in Sources */,
+				F6C0F740258F1A4700B4C3AA /* 冒泡.swift in Sources */,
+				F6C0F74D258F3BB000B4C3AA /* 堆排序.swift in Sources */,
+				F6C0F759258F6F3400B4C3AA /* 合并两个有序数组.swift in Sources */,
 				F669A96A2574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */,
 				F6475360257A32BD004AEEEA /*  相同的树.swift in Sources */,
+				F6C0F74A258F3A6B00B4C3AA /* 选择.swift in Sources */,
 				F647536F257E1D4E004AEEEA /* 二叉树的最小深度.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +320,11 @@
 		F695DA4A2571F481004ECB52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LG5R2KFSHB;
+				DEVELOPMENT_TEAM = KAM263Q529;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -271,9 +333,11 @@
 		F695DA4B2571F481004ECB52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LG5R2KFSHB;
+				DEVELOPMENT_TEAM = KAM263Q529;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

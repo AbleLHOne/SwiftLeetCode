@@ -23,22 +23,41 @@ print("Hello, World!")
   }
 
 
-let solution = Solution()
+//let solution = Solution()
+//
+//let node1:TreeNode = TreeNode(1);
+//let node2:TreeNode = TreeNode(2);
+//let node3:TreeNode = TreeNode(3);
+//let node4:TreeNode = TreeNode(4);
+//let node5:TreeNode = TreeNode(5);
+//let node6:TreeNode = TreeNode(6);
+//let node7:TreeNode = TreeNode(7);
+//let node8:TreeNode = TreeNode(8);
+//node1.left = node2
+//node1.right = node3
+//node2.left = node4
+//node4.right = node8
+////solution.mirrorTree(node1)
+//
+//let solution1 = Solution1()
+//
+//print("深度 ==",solution1.maxDepth(node1))
 
-let node1:TreeNode = TreeNode(1);
-let node2:TreeNode = TreeNode(2);
-let node3:TreeNode = TreeNode(3);
-let node4:TreeNode = TreeNode(4);
-let node5:TreeNode = TreeNode(5);
-let node6:TreeNode = TreeNode(6);
-let node7:TreeNode = TreeNode(7);
-let node8:TreeNode = TreeNode(8);
-node1.left = node2
-node1.right = node3
-node2.left = node4
-node4.right = node8
-//solution.mirrorTree(node1)
+/**
+ ===================
+ 算法排序
+ 
+ */
+//bubbleSort1()
+//selectSort()
+//heapSort()
+//insterSort()
+//binarySearch(number: 4)
 
-let solution1 = Solution1()
+let solution = Solution7()
 
-print("深度 ==",solution1.maxDepth(node1))
+var n1 = [1,2,3,0,0,0]
+let n2 = [2,5,]
+
+solution.merge(&n1, 3, n2, 2)
+
