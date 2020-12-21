@@ -12,6 +12,7 @@
 		F64753C1257F9F02004AEEEA /* 翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64753C0257F9F02004AEEEA /* 翻转二叉树.swift */; };
 		F669A9672574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */; };
 		F669A96A2574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */; };
+		F679A2BD2590A5DC00E5E6C9 /* 路径总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = F679A2BC2590A5DC00E5E6C9 /* 路径总和.swift */; };
 		F695DA462571F481004ECB52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695DA452571F481004ECB52 /* main.swift */; };
 		F6C0F740258F1A4700B4C3AA /* 冒泡.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F73F258F1A4700B4C3AA /* 冒泡.swift */; };
 		F6C0F74A258F3A6B00B4C3AA /* 选择.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F749258F3A6B00B4C3AA /* 选择.swift */; };
@@ -40,6 +41,7 @@
 		F64753C0257F9F02004AEEEA /* 翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "翻转二叉树.swift"; sourceTree = "<group>"; };
 		F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 27_二叉树的镜像.swift"; sourceTree = "<group>"; };
 		F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 55 - I. 二叉树的深度.swift"; sourceTree = "<group>"; };
+		F679A2BC2590A5DC00E5E6C9 /* 路径总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "路径总和.swift"; sourceTree = "<group>"; };
 		F695DA422571F481004ECB52 /* SwiftLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F695DA452571F481004ECB52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F6C0F73F258F1A4700B4C3AA /* 冒泡.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "冒泡.swift"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				F647535F257A32BD004AEEEA /*  相同的树.swift */,
 				F647536E257E1D4E004AEEEA /* 二叉树的最小深度.swift */,
 				F64753C0257F9F02004AEEEA /* 翻转二叉树.swift */,
+				F679A2BC2590A5DC00E5E6C9 /* 路径总和.swift */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C0F755258F6B5100B4C3AA /* 二分查找.swift in Sources */,
+				F679A2BD2590A5DC00E5E6C9 /* 路径总和.swift in Sources */,
 				F669A9672574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift in Sources */,
 				F695DA462571F481004ECB52 /* main.swift in Sources */,
 				F6C0F75E258F752900B4C3AA /* 合并两个有序链表.swift in Sources */,
