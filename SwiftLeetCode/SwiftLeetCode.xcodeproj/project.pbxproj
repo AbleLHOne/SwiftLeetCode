@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F617C68D259F4DE7008590E8 /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617C68C259F4DE7008590E8 /* 剑指 Offer 06. 从尾到头打印链表.swift */; };
+		F617C690259F546D008590E8 /* 剑指 Offer 07. 重建二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617C68F259F546D008590E8 /* 剑指 Offer 07. 重建二叉树.swift */; };
 		F6475360257A32BD004AEEEA /*  相同的树.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647535F257A32BD004AEEEA /*  相同的树.swift */; };
 		F647536F257E1D4E004AEEEA /* 二叉树的最小深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = F647536E257E1D4E004AEEEA /* 二叉树的最小深度.swift */; };
 		F669A9672574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */; };
 		F669A96A2574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */; };
+		F66CDBF725A35BF2004AE799 /* 剑指 Offer 31. 栈的压入、弹出序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CDBF625A35BF2004AE799 /* 剑指 Offer 31. 栈的压入、弹出序列.swift */; };
+		F66CDBFA25A4ADEE004AE799 /* 剑指 Offer 32 - I. 从上到下打印二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CDBF925A4ADEE004AE799 /* 剑指 Offer 32 - I. 从上到下打印二叉树.swift */; };
+		F66CDBFD25A5ED3A004AE799 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66CDBFC25A5ED3A004AE799 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.swift */; };
 		F695DA462571F481004ECB52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F695DA452571F481004ECB52 /* main.swift */; };
+		F6B2E46A25A195EB00E3EB30 /* 剑指 Offer 26. 树的子结构.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2E46925A195EB00E3EB30 /* 剑指 Offer 26. 树的子结构.swift */; };
+		F6B2E46D25A1A88100E3EB30 /* 剑指 Offer 29. 顺时针打印矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2E46C25A1A88100E3EB30 /* 剑指 Offer 29. 顺时针打印矩阵.swift */; };
+		F6B2E47025A1F8AE00E3EB30 /* 剑指 Offer 30. 包含min函数的栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2E46F25A1F8AD00E3EB30 /* 剑指 Offer 30. 包含min函数的栈.swift */; };
+		F6C0B818259F174000A29262 /* 剑指 Offer 04. 二维数组中的查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0B817259F174000A29262 /* 剑指 Offer 04. 二维数组中的查找.swift */; };
+		F6C0B81D259F239800A29262 /* 剑指 Offer 05. 替换空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0B81C259F239800A29262 /* 剑指 Offer 05. 替换空格.swift */; };
 		F6C0F740258F1A4700B4C3AA /* 冒泡.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F73F258F1A4700B4C3AA /* 冒泡.swift */; };
 		F6C0F74A258F3A6B00B4C3AA /* 选择.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F749258F3A6B00B4C3AA /* 选择.swift */; };
 		F6C0F74D258F3BB000B4C3AA /* 堆排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F74C258F3BB000B4C3AA /* 堆排序.swift */; };
@@ -19,6 +29,17 @@
 		F6C0F755258F6B5100B4C3AA /* 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F754258F6B5100B4C3AA /* 二分查找.swift */; };
 		F6C0F759258F6F3400B4C3AA /* 合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F758258F6F3400B4C3AA /* 合并两个有序数组.swift */; };
 		F6C0F75E258F752900B4C3AA /* 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C0F75D258F752900B4C3AA /* 合并两个有序链表.swift */; };
+		F6CDFAED25A03C29008471BE /* 剑指 Offer 09. 用两个栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFAEC25A03C29008471BE /* 剑指 Offer 09. 用两个栈实现队列.swift */; };
+		F6CDFAF025A04130008471BE /* 剑指 Offer 11. 旋转数组的最小数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFAEF25A04130008471BE /* 剑指 Offer 11. 旋转数组的最小数字.swift */; };
+		F6CDFAF325A04BB1008471BE /* 剑指 Offer 10- I. 斐波那契数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFAF225A04BB1008471BE /* 剑指 Offer 10- I. 斐波那契数列.swift */; };
+		F6CDFAF725A0559F008471BE /*  二进制中1的个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFAF625A0559F008471BE /*  二进制中1的个数.swift */; };
+		F6CDFAFC25A06637008471BE /* 剑指 Offer 16. 数值的整数次方.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFAFB25A06637008471BE /* 剑指 Offer 16. 数值的整数次方.swift */; };
+		F6CDFB0025A07242008471BE /* 剑指 Offer 17. 打印从1到最大的n位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFAFF25A07242008471BE /* 剑指 Offer 17. 打印从1到最大的n位数.swift */; };
+		F6CDFB0325A07749008471BE /* 剑指 Offer 18. 删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFB0225A07749008471BE /* 剑指 Offer 18. 删除链表的节点.swift */; };
+		F6CDFB0625A08345008471BE /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFB0525A08345008471BE /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */; };
+		F6CDFB0925A0900C008471BE /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFB0825A0900C008471BE /* 剑指 Offer 22. 链表中倒数第k个节点.swift */; };
+		F6CDFB0D25A09417008471BE /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFB0C25A09417008471BE /* 剑指 Offer 24. 反转链表.swift */; };
+		F6CDFB1125A0A281008471BE /* 剑指 Offer 25. 合并两个排序的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CDFB1025A0A281008471BE /* 剑指 Offer 25. 合并两个排序的链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,12 +55,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F617C68C259F4DE7008590E8 /* 剑指 Offer 06. 从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 06. 从尾到头打印链表.swift"; sourceTree = "<group>"; };
+		F617C68F259F546D008590E8 /* 剑指 Offer 07. 重建二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 07. 重建二叉树.swift"; sourceTree = "<group>"; };
 		F647535F257A32BD004AEEEA /*  相同的树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " 相同的树.swift"; sourceTree = "<group>"; };
 		F647536E257E1D4E004AEEEA /* 二叉树的最小深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二叉树的最小深度.swift"; sourceTree = "<group>"; };
 		F669A9662574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 27_二叉树的镜像.swift"; sourceTree = "<group>"; };
 		F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 55 - I. 二叉树的深度.swift"; sourceTree = "<group>"; };
+		F66CDBF625A35BF2004AE799 /* 剑指 Offer 31. 栈的压入、弹出序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 31. 栈的压入、弹出序列.swift"; sourceTree = "<group>"; };
+		F66CDBF925A4ADEE004AE799 /* 剑指 Offer 32 - I. 从上到下打印二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 32 - I. 从上到下打印二叉树.swift"; sourceTree = "<group>"; };
+		F66CDBFC25A5ED3A004AE799 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 33. 二叉搜索树的后序遍历序列.swift"; sourceTree = "<group>"; };
 		F695DA422571F481004ECB52 /* SwiftLeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F695DA452571F481004ECB52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F6B2E46925A195EB00E3EB30 /* 剑指 Offer 26. 树的子结构.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 26. 树的子结构.swift"; sourceTree = "<group>"; };
+		F6B2E46C25A1A88100E3EB30 /* 剑指 Offer 29. 顺时针打印矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 29. 顺时针打印矩阵.swift"; sourceTree = "<group>"; };
+		F6B2E46F25A1F8AD00E3EB30 /* 剑指 Offer 30. 包含min函数的栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 30. 包含min函数的栈.swift"; sourceTree = "<group>"; };
+		F6C0B817259F174000A29262 /* 剑指 Offer 04. 二维数组中的查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 04. 二维数组中的查找.swift"; sourceTree = "<group>"; };
+		F6C0B81C259F239800A29262 /* 剑指 Offer 05. 替换空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 05. 替换空格.swift"; sourceTree = "<group>"; };
 		F6C0F73F258F1A4700B4C3AA /* 冒泡.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "冒泡.swift"; sourceTree = "<group>"; };
 		F6C0F749258F3A6B00B4C3AA /* 选择.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "选择.swift"; sourceTree = "<group>"; };
 		F6C0F74C258F3BB000B4C3AA /* 堆排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "堆排序.swift"; sourceTree = "<group>"; };
@@ -47,6 +78,17 @@
 		F6C0F754258F6B5100B4C3AA /* 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二分查找.swift"; sourceTree = "<group>"; };
 		F6C0F758258F6F3400B4C3AA /* 合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "合并两个有序数组.swift"; sourceTree = "<group>"; };
 		F6C0F75D258F752900B4C3AA /* 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "合并两个有序链表.swift"; sourceTree = "<group>"; };
+		F6CDFAEC25A03C29008471BE /* 剑指 Offer 09. 用两个栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 09. 用两个栈实现队列.swift"; sourceTree = "<group>"; };
+		F6CDFAEF25A04130008471BE /* 剑指 Offer 11. 旋转数组的最小数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 11. 旋转数组的最小数字.swift"; sourceTree = "<group>"; };
+		F6CDFAF225A04BB1008471BE /* 剑指 Offer 10- I. 斐波那契数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 10- I. 斐波那契数列.swift"; sourceTree = "<group>"; };
+		F6CDFAF625A0559F008471BE /*  二进制中1的个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " 二进制中1的个数.swift"; sourceTree = "<group>"; };
+		F6CDFAFB25A06637008471BE /* 剑指 Offer 16. 数值的整数次方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 16. 数值的整数次方.swift"; sourceTree = "<group>"; };
+		F6CDFAFF25A07242008471BE /* 剑指 Offer 17. 打印从1到最大的n位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 17. 打印从1到最大的n位数.swift"; sourceTree = "<group>"; };
+		F6CDFB0225A07749008471BE /* 剑指 Offer 18. 删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 18. 删除链表的节点.swift"; sourceTree = "<group>"; };
+		F6CDFB0525A08345008471BE /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift"; sourceTree = "<group>"; };
+		F6CDFB0825A0900C008471BE /* 剑指 Offer 22. 链表中倒数第k个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 22. 链表中倒数第k个节点.swift"; sourceTree = "<group>"; };
+		F6CDFB0C25A09417008471BE /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
+		F6CDFB1025A0A281008471BE /* 剑指 Offer 25. 合并两个排序的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 25. 合并两个排序的链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +126,20 @@
 				F6C0F73E258F1A3100B4C3AA /* 排序 */,
 				F6C0F757258F6F1A00B4C3AA /* 数组 */,
 				F6C0F75C258F751400B4C3AA /* 链表 */,
+				F6C0B81B259F235800A29262 /* 字符串 */,
+				F6CDFAEB25A03C10008471BE /* 栈 */,
+				F6CDFAF525A054EA008471BE /* 位运算 */,
+				F6CDFAFA25A06623008471BE /* 其他 */,
 			);
 			path = SwiftLeetCode;
+			sourceTree = "<group>";
+		};
+		F6C0B81B259F235800A29262 /* 字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				F6C0B81C259F239800A29262 /* 剑指 Offer 05. 替换空格.swift */,
+			);
+			path = "字符串";
 			sourceTree = "<group>";
 		};
 		F6C0F73E258F1A3100B4C3AA /* 排序 */ = {
@@ -107,6 +161,10 @@
 				F669A9692574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift */,
 				F647535F257A32BD004AEEEA /*  相同的树.swift */,
 				F647536E257E1D4E004AEEEA /* 二叉树的最小深度.swift */,
+				F617C68F259F546D008590E8 /* 剑指 Offer 07. 重建二叉树.swift */,
+				F6B2E46925A195EB00E3EB30 /* 剑指 Offer 26. 树的子结构.swift */,
+				F66CDBF925A4ADEE004AE799 /* 剑指 Offer 32 - I. 从上到下打印二叉树.swift */,
+				F66CDBFC25A5ED3A004AE799 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.swift */,
 			);
 			path = "树";
 			sourceTree = "<group>";
@@ -115,6 +173,10 @@
 			isa = PBXGroup;
 			children = (
 				F6C0F758258F6F3400B4C3AA /* 合并两个有序数组.swift */,
+				F6C0B817259F174000A29262 /* 剑指 Offer 04. 二维数组中的查找.swift */,
+				F6CDFAEF25A04130008471BE /* 剑指 Offer 11. 旋转数组的最小数字.swift */,
+				F6CDFAF225A04BB1008471BE /* 剑指 Offer 10- I. 斐波那契数列.swift */,
+				F6B2E46C25A1A88100E3EB30 /* 剑指 Offer 29. 顺时针打印矩阵.swift */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -123,8 +185,41 @@
 			isa = PBXGroup;
 			children = (
 				F6C0F75D258F752900B4C3AA /* 合并两个有序链表.swift */,
+				F617C68C259F4DE7008590E8 /* 剑指 Offer 06. 从尾到头打印链表.swift */,
+				F6CDFB0225A07749008471BE /* 剑指 Offer 18. 删除链表的节点.swift */,
+				F6CDFB0825A0900C008471BE /* 剑指 Offer 22. 链表中倒数第k个节点.swift */,
+				F6CDFB0C25A09417008471BE /* 剑指 Offer 24. 反转链表.swift */,
+				F6CDFB1025A0A281008471BE /* 剑指 Offer 25. 合并两个排序的链表.swift */,
 			);
 			path = "链表";
+			sourceTree = "<group>";
+		};
+		F6CDFAEB25A03C10008471BE /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CDFAEC25A03C29008471BE /* 剑指 Offer 09. 用两个栈实现队列.swift */,
+				F6B2E46F25A1F8AD00E3EB30 /* 剑指 Offer 30. 包含min函数的栈.swift */,
+				F66CDBF625A35BF2004AE799 /* 剑指 Offer 31. 栈的压入、弹出序列.swift */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		F6CDFAF525A054EA008471BE /* 位运算 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CDFAF625A0559F008471BE /*  二进制中1的个数.swift */,
+			);
+			path = "位运算";
+			sourceTree = "<group>";
+		};
+		F6CDFAFA25A06623008471BE /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				F6CDFAFB25A06637008471BE /* 剑指 Offer 16. 数值的整数次方.swift */,
+				F6CDFAFF25A07242008471BE /* 剑指 Offer 17. 打印从1到最大的n位数.swift */,
+				F6CDFB0525A08345008471BE /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */,
+			);
+			path = "其他";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,17 +280,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C0F755258F6B5100B4C3AA /* 二分查找.swift in Sources */,
+				F6CDFB0325A07749008471BE /* 剑指 Offer 18. 删除链表的节点.swift in Sources */,
 				F669A9672574DF2C00429AC2 /* 剑指 Offer 27_二叉树的镜像.swift in Sources */,
+				F6B2E46A25A195EB00E3EB30 /* 剑指 Offer 26. 树的子结构.swift in Sources */,
+				F6CDFB0D25A09417008471BE /* 剑指 Offer 24. 反转链表.swift in Sources */,
 				F695DA462571F481004ECB52 /* main.swift in Sources */,
+				F6CDFAFC25A06637008471BE /* 剑指 Offer 16. 数值的整数次方.swift in Sources */,
 				F6C0F75E258F752900B4C3AA /* 合并两个有序链表.swift in Sources */,
+				F6C0B81D259F239800A29262 /* 剑指 Offer 05. 替换空格.swift in Sources */,
 				F6C0F750258F618700B4C3AA /* 插入.swift in Sources */,
+				F6CDFAED25A03C29008471BE /* 剑指 Offer 09. 用两个栈实现队列.swift in Sources */,
+				F6CDFB0925A0900C008471BE /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */,
 				F6C0F740258F1A4700B4C3AA /* 冒泡.swift in Sources */,
+				F6CDFAF325A04BB1008471BE /* 剑指 Offer 10- I. 斐波那契数列.swift in Sources */,
 				F6C0F74D258F3BB000B4C3AA /* 堆排序.swift in Sources */,
 				F6C0F759258F6F3400B4C3AA /* 合并两个有序数组.swift in Sources */,
+				F66CDBFD25A5ED3A004AE799 /* 剑指 Offer 33. 二叉搜索树的后序遍历序列.swift in Sources */,
 				F669A96A2574ECBD00429AC2 /* 剑指 Offer 55 - I. 二叉树的深度.swift in Sources */,
+				F617C68D259F4DE7008590E8 /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */,
 				F6475360257A32BD004AEEEA /*  相同的树.swift in Sources */,
+				F6B2E47025A1F8AE00E3EB30 /* 剑指 Offer 30. 包含min函数的栈.swift in Sources */,
+				F66CDBFA25A4ADEE004AE799 /* 剑指 Offer 32 - I. 从上到下打印二叉树.swift in Sources */,
+				F6CDFB1125A0A281008471BE /* 剑指 Offer 25. 合并两个排序的链表.swift in Sources */,
 				F6C0F74A258F3A6B00B4C3AA /* 选择.swift in Sources */,
+				F6CDFAF725A0559F008471BE /*  二进制中1的个数.swift in Sources */,
+				F6CDFB0625A08345008471BE /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift in Sources */,
+				F66CDBF725A35BF2004AE799 /* 剑指 Offer 31. 栈的压入、弹出序列.swift in Sources */,
+				F6B2E46D25A1A88100E3EB30 /* 剑指 Offer 29. 顺时针打印矩阵.swift in Sources */,
+				F6CDFAF025A04130008471BE /* 剑指 Offer 11. 旋转数组的最小数字.swift in Sources */,
 				F647536F257E1D4E004AEEEA /* 二叉树的最小深度.swift in Sources */,
+				F6CDFB0025A07242008471BE /* 剑指 Offer 17. 打印从1到最大的n位数.swift in Sources */,
+				F6C0B818259F174000A29262 /* 剑指 Offer 04. 二维数组中的查找.swift in Sources */,
+				F617C690259F546D008590E8 /* 剑指 Offer 07. 重建二叉树.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
