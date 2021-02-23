@@ -44,7 +44,7 @@ func findNumberIn2DArray(_ matrix: [[Int]], _ target: Int) -> Bool {
     
     //思路 先从第一行查找 判断数字 大小 从而排除列数
     let rowS:Array = matrix[0]
-    
+
     
     
     //记录对比停止的下标

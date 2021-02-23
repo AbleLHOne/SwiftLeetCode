@@ -29,6 +29,7 @@
  */
 
 import Foundation
+//重建二叉树.
 
 func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
     
@@ -74,10 +75,7 @@ func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
       
         index += 1
     }
-    
-   
- 
-    
+
     return root
 }
 

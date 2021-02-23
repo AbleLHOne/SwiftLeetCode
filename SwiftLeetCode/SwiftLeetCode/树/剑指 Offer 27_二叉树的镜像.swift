@@ -37,7 +37,7 @@ import Foundation
 class Solution {
     func mirrorTree(_ root: TreeNode?) -> TreeNode? {
 
-        //层级遍历
+        //层级遍历 二叉树的镜像
         
         var queue:Array = Array<Any>()
         
@@ -66,7 +66,6 @@ class Solution {
         }
             
     }
-        
         
         return root
     }

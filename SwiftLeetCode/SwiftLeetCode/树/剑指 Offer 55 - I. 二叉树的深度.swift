@@ -21,6 +21,7 @@
 import Foundation
 /**
  每个节点 都要当根节点 ，这点意识不到的就会绕路😓
+ 树的深度
  */
 class Solution1 {
     func maxDepth(_ root: TreeNode?) -> Int {

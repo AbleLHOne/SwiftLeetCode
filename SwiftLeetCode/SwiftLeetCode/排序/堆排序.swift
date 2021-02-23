@@ -20,7 +20,7 @@ import Foundation
  */
 func heapSort(){
     
-    var ary:Array = [10,100,90,88,70,766,9,]
+    var ary:Array = [10,100,90,88,0,70,766,9,]
     
     var heapSize = ary.count - 1
     
@@ -56,7 +56,7 @@ func heapSort(){
 
 func siftDown(index:Int,ary: inout Array<Int>,size:Int){
 
-    var index = index
+     var index = index
     let data = ary[index]
     let half = size >> 1
     
@@ -75,7 +75,7 @@ func siftDown(index:Int,ary: inout Array<Int>,size:Int){
         }
         
         if data >= child {
-            
+
             break
         }
         

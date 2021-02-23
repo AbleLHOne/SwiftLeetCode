@@ -93,14 +93,21 @@ public class ListNode2 {
      }
  }
 //
-//let node1 = ListNode(1)
-//let node2 = ListNode(2)
-//let node3 = ListNode(3)
-//let node4 = ListNode(4)
-
+let node1 = ListNode(1)
+let node2 = ListNode(2)
+let node3 = ListNode(3)
+let node4 = ListNode(4)
+let node5 = ListNode(5)
+let node6 = ListNode(6)
+let node7 = ListNode(7)
+let node8 = ListNode(8)
 //node1.next = node2
 //node2.next = node3
 //node3.next = node4
+node4.next = node5
+//node5.next = node6
+//node6.next = node7
+//node7.next = node8
 //reversePrint(node1)
 
 
@@ -125,23 +132,24 @@ public class ListNode2 {
 //print(exchange(data))
 
 
-//print(reverseList(node1) as Any)
+print(removeNthFromEnd(node1,1) as Any)
 
 
 
 
-let node1:TreeNode = TreeNode(1);
-let node2:TreeNode = TreeNode(2);
-let node3:TreeNode = TreeNode(3);
-let node4:TreeNode = TreeNode(4);
-let node5:TreeNode = TreeNode(5);
+//let node1:TreeNode = TreeNode(1);
+//let node2:TreeNode = TreeNode(2);
+//let node3:TreeNode = TreeNode(3);
+//let node4:TreeNode = TreeNode(4);
+//let node5:TreeNode = TreeNode(5);
+//let node6:TreeNode = TreeNode(3);
+////
+//node1.left = node2
+//node1.right = node3
 //
-//
-node1.left = node2
-node1.right = node3
-
-node2.left = node4
-node3.right = node5
+//node2.left = node4
+//node3.right = node5
+//node3.left = node6;
 //
 //print(isSubStructure(node1, node2))
 
@@ -158,9 +166,8 @@ node3.right = node5
 //print(minStack.top())
 //print(minStack.min())
 
-let data = [1,3,2,6,5]
-//
-//let data2 = [4,3,5,1,2]
+
+//let data = [0,1,2,1]
 //
 //
 //print(validateStackSequences(data, data2))
@@ -168,5 +175,57 @@ let data = [1,3,2,6,5]
 
 //print(levelOrder(node1))
 
-print(verifyPostorder(data))
+//print(verifyPostorder(data))
 
+
+
+//print(pathSum(node1, 7))
+
+//print(majorityElement1(data))
+
+//print(getLeastNumbers(data, 10))
+
+//print(heapSort())
+
+
+//print(findContinuousSequence(9))
+
+//print(levelOrder2(node1))
+
+
+
+
+//print(twoSum(data, 76))
+
+//print(lastRemaining2(5, 3))
+
+//print(firstUniqChar("abaccdeff"))
+
+//print(maxSubArray(data))
+
+
+//print(isSymmetric(node1))
+
+//print(add(10, 5))
+
+//print(maxSlidingWindow(data,1))
+
+//print(missingNumber2(data))
+
+//print(reverseWords("  hello world!  "))
+
+//print(judgeIt(node1))
+
+var data = [2,7,11,15]
+
+let data2 = [2,5,6]
+
+//print(twoSum22(data,9))\
+
+//print(mergeTrees1(node1, node2))
+
+var str1:[Character] = ["H","a","n","n","a","h"]
+
+reverseString(&str1)
+
+print(str1)

@@ -38,9 +38,17 @@ import Foundation
 
 func verifyPostorder(_ postorder: [Int]) -> Bool {
 
+    
+    if postorder.count == 0 {
+        
+        return false
+    }
+    
+    
     //思路找出根节点
     
-    let root:Int = postorder.last!
+    
+    let root:Int = postorder[postorder.count - 1]
     
     //分开左子树和右子树 二叉搜索树 左子树 小于根节点 右子树 大于根节点
     
@@ -49,21 +57,40 @@ func verifyPostorder(_ postorder: [Int]) -> Bool {
     
     var index = 0
     
-    while index < postorder.count {
+    while index < postorder.count-1 {
         
-        let data = postorder[index]
-        
-        if data < root {
+    
+        if postorder[index] >= root {
             
-            leftAry.append(data)
+           break
             
         }else{
             
-            rightAry.append(data)
+            leftAry.append(postorder[index])
+            
+        }
+        index+=1
+       
+    }
+    
+    
+    var leftIndex = index
+    
+    while leftIndex < postorder.count-1 {
+        
+        if postorder[leftIndex] <= root {
+            
+            return false
+        }else{
+            
+            rightAry.append(postorder[leftIndex])
+            
         }
         
-        index+=1
+        leftIndex+=1
     }
+    
+    
     
     //判断左右子树 是否二叉搜索树
     
