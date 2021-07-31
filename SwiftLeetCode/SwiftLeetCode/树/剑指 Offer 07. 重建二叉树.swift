@@ -66,7 +66,6 @@ func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
                 
                 node = stack.popLast()
                 inorderIndex += 1
-                
             }
             
             node?.right = TreeNode(data)

@@ -48,10 +48,6 @@ func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
             
             index+=1
         }
-        
-
-        
-        
         newAry.append(maxNumber)
         firstIndex+=1
         lastIndex+=1
