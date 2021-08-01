@@ -1,1 +1,0 @@
-../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/Core/HeatMap/UIView+HeatMap.h

@@ -1,8 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-YaoWang/Pods-YaoWang-frameworks.sh
-${PODS_ROOT}/AlivcConan/AlivcConan.framework
-${PODS_ROOT}/AliyunPlayer_iOS/AliyunPlayerSDK.framework
-${PODS_ROOT}/AliyunPlayer_iOS/AliThirdparty.framework
-${PODS_ROOT}/AliyunPlayer_iOS/AliyunVodPlayerSDK.framework
-${PODS_ROOT}/AliyunVideoSDKStd/frameworks/AliyunVideoSDKPro.framework
-${PODS_ROOT}/Hyphenate/iOS_Pods_IMFullSDK_V3.6.0/Hyphenate.framework
-${PODS_ROOT}/QuCore-ThirdParty/frameworks/alivcffmpeg.framework

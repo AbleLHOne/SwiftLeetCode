@@ -1,1 +1,0 @@
-../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/Core/AutoTrack/UIGestureRecognizer+AutoTrack.h

@@ -37,6 +37,8 @@ func validateStackSequences(_ pushed: [Int], _ popped: [Int]) -> Bool {
         
         let data = pushed[index]
         
+        
+        
         stackPush.insert(data, at: 0)
         
         while stackPush.count != 0 && stackPush[0] == popped[popIndex]  {
