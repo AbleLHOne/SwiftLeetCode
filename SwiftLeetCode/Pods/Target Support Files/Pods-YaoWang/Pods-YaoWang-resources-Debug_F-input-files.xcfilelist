@@ -1,0 +1,14 @@
+${PODS_ROOT}/Target Support Files/Pods-YaoWang/Pods-YaoWang-resources.sh
+${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle
+${PODS_ROOT}/AliyunPlayer_iOS/AliyunLanguageSource.bundle
+${PODS_ROOT}/CL_ShanYanSDK/framework/sdk_oauth.bundle
+${PODS_ROOT}/GPUImage/framework/Resources/lookup.png
+${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png
+${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png
+${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png
+${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
+${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle
+${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle
+${PODS_ROOT}/YBImageBrowser/YBImageBrowser/YBImageBrowser.bundle

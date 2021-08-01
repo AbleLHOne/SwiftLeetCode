@@ -1,0 +1,2810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		295380F720450CF88C28122999854DC9 /* Pods-YaoWangUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ADB6F21F7B09F9E2A3091A9A5185E4 /* Pods-YaoWangUITests-dummy.m */; };
+		42AF3420BF3180CC20555D6228C0776C /* Pods-YaoWang-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B7E991B0C23BA2E472466BBF6F8249 /* Pods-YaoWang-dummy.m */; };
+		463CEC710D3D49F2CBD00F969C2020CD /* Pods-YaoWangTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E1C6BEFE0417AC6CE217AE39D4273E /* Pods-YaoWangTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01CA890B9E341CEF990C2D40D469F258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEFF6DF7BD3BBF26CB99FDB621F2743B /* YYCache.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B4EFD655BE7A67C6F5C5E6F514BDB9;
+			remoteInfo = YYCache;
+		};
+		03DB70AFA6FAA91573A4D63C1384558F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79E8114EC018FF471805472E8242458 /* LXMButtonImagePosition.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE09F3CCB05DFC5C727239E5E132DA8;
+			remoteInfo = LXMButtonImagePosition;
+		};
+		05707073D00722E07E25D1FB3F607301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40EFDCF942F48C2CEDFFB22615D7A935 /* IGListDiffKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9074A5DFB260E6240F743D74D3F432DD;
+			remoteInfo = IGListDiffKit;
+		};
+		058F8ED81FCDEB1E13382F6DF5E7A165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C902162A7A99C8E3AE2A559052E49AD /* Bugly.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E0D2EB2A5CB1517203552D2DE64F8E;
+			remoteInfo = Bugly;
+		};
+		07129E299066369FD6934CBDE5099BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C902162A7A99C8E3AE2A559052E49AD /* Bugly.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E0D2EB2A5CB1517203552D2DE64F8E;
+			remoteInfo = Bugly;
+		};
+		08A9B3BF676FC30556777F27C7113A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40EFDCF942F48C2CEDFFB22615D7A935 /* IGListDiffKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9074A5DFB260E6240F743D74D3F432DD;
+			remoteInfo = IGListDiffKit;
+		};
+		0C119079CBFD77CA51148D89AD94CA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162D4976BF6802C76AAA6270CB9CCF87 /* ReactiveObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58630A911E82956281CDF1C822E7FC41;
+			remoteInfo = ReactiveObjC;
+		};
+		0DCC357AC1A6C0A9322968B762B9694F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58D93D169969C032AEC0C41303CA94F /* AFNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
+			remoteInfo = AFNetworking;
+		};
+		0E2EC6A22CCDF5C43EFFD56E193CB224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710C4F43F179730D91745DDD3EAC0888 /* IGListKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C5D6FE2744F299C4B5885492E7CFF8C;
+			remoteInfo = IGListKit;
+		};
+		120FD1E3D789BB8B63051D4874D355E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE93AC9B404DEDC4D86D1E2A1A290CF8 /* Masonry.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
+			remoteInfo = Masonry;
+		};
+		126DDEA0637DCB57CCBB9A7FCD4973CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5C77A3655623D13B7D1294DC1BAC63 /* CHTCollectionViewWaterfallLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F9F64DBC2D8FF3BF94F8416F72DA6F;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+		15CBD78A53532BA22CBD038CC4B35394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2F466187DD34214B6280DA75581B74 /* NIMSDK_LITE.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3206163AD91A2C1A3BF1FB04560E7E5B;
+			remoteInfo = NIMSDK_LITE;
+		};
+		16BBEA63D04DCC7EA0F609BABF90B394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7D421BADA21ABDC6D70794CC06F954 /* UICountingLabel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4ADEEB6E5FC16B6428D2E16F610261;
+			remoteInfo = UICountingLabel;
+		};
+		19AE43B71D830C7611B86FB56084079F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C75D4DB32892C3ADB15A5DDBC9B098 /* FDFullscreenPopGesture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BAA0D80184552CA0F0647BF03C3D1B;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		1A2CE06C06330736AB3AC703CC85D0A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C75D4DB32892C3ADB15A5DDBC9B098 /* FDFullscreenPopGesture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BAA0D80184552CA0F0647BF03C3D1B;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		1C420A2E1CF880D07B21683E413B9D7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B61FC262DA18FDDB74EAD4EB8556FF /* UMPush.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4C15EC2F685521B6405A2830C10FE4;
+			remoteInfo = UMPush;
+		};
+		1CA74E5A2824428AF1E6FF4BCCF9BE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5C77A3655623D13B7D1294DC1BAC63 /* CHTCollectionViewWaterfallLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F9F64DBC2D8FF3BF94F8416F72DA6F;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+		1CB1334218B361DE1CBFFEA6218900B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C0F5FEDABD3ED3D98448F19BBC30C85 /* YBImageBrowser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A13069CD227D6C648A6A2BF33159B4FA;
+			remoteInfo = YBImageBrowser;
+		};
+		1F4B3445BFAC8C9787EA0B6525CFB468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6F13EDE30B61E0D04FEA1E483D9A5A /* BGFMDB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD68C38B5304651D7299EAF7DEA1DB3;
+			remoteInfo = BGFMDB;
+		};
+		243E06BC746E0762E0D3DBF87F20A64D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC99743CA5A1DD5705CC650CFE1B68D /* YYImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A687989E871964747CED931C10657C;
+			remoteInfo = YYImage;
+		};
+		2457E197DCAE7BE336E427113BE17807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B53608C9FC913BB2B9D7251F9F6BAD /* MGSwipeTableCell.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 09ADC652ED40A47BEAE998FC7C02CEA2;
+			remoteInfo = MGSwipeTableCell;
+		};
+		24829E3D05BDF3EE2967BFA7BEDED305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF767F699F4BC3BFBC9CB8E623EA62F6 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
+			remoteInfo = SDWebImage;
+		};
+		2505CF76F22D87D557057DC0159C3B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710C4F43F179730D91745DDD3EAC0888 /* IGListKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C5D6FE2744F299C4B5885492E7CFF8C;
+			remoteInfo = IGListKit;
+		};
+		282745790C8805CF63010D8C5DB12A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E16CC35E97100202A3403405B485A2 /* UMCommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E107150262EBBCAD58EEF53FF44299F;
+			remoteInfo = UMCommon;
+		};
+		28E90AA83F3D4F0B0C22D91251EF66AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805DA97099C69B564DB6B870D85E79A2 /* UITextView+Placeholder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 906EDD0C4C239FD21D1E23F360F8E43E;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		29A379AD574B6C575EDDEADC5A16B59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7D421BADA21ABDC6D70794CC06F954 /* UICountingLabel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4ADEEB6E5FC16B6428D2E16F610261;
+			remoteInfo = UICountingLabel;
+		};
+		2C4267B2A2430864571398F1323398B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710200C3B580D77274E28C2C9499E277 /* CL_ShanYanSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A884B903E470B6B45A5448D794E37B9;
+			remoteInfo = CL_ShanYanSDK;
+		};
+		2CE086322503647A93501D67B205A8A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162D4976BF6802C76AAA6270CB9CCF87 /* ReactiveObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58630A911E82956281CDF1C822E7FC41;
+			remoteInfo = ReactiveObjC;
+		};
+		2D35C1DBD151211729860E48AD67E530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770F81990AEBD406006EC0A42FF50BF9 /* BMKLocationKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 374FBC7427BBFE615C7E04A259690B6B;
+			remoteInfo = BMKLocationKit;
+		};
+		2E9B5691DFBECB7B5E3C0749E7523A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1B7136B25FEFAC42602920861AA64F /* TZImagePickerController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6090C91802307673CBF0A57EF1608978;
+			remoteInfo = TZImagePickerController;
+		};
+		2FF050DB4F0C3AA97776256841120F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CF3FDEC347A8C5FA1AA905A0566C466 /* KTVHTTPCache.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C00DC50DE064F4D89CECEA42E8341114;
+			remoteInfo = KTVHTTPCache;
+		};
+		31F86D75AD93E02619C711328BC7F53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805DA97099C69B564DB6B870D85E79A2 /* UITextView+Placeholder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 906EDD0C4C239FD21D1E23F360F8E43E;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		34D1978F41139696C89B54BD2FAB7F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E16CC35E97100202A3403405B485A2 /* UMCommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E107150262EBBCAD58EEF53FF44299F;
+			remoteInfo = UMCommon;
+		};
+		34D9DBACF4BB8EF4E0BDB6BB1FDEDBF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6162FA1D19F7BCCC4AAFB0BE38B5951C /* JXTAlertManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B565EB44149AEE95A1273D6584CCC7;
+			remoteInfo = JXTAlertManager;
+		};
+		37B7577E96B11E9CAB0B4BDC4F84F294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDE578DF9A7B0E71744E0C1F822786A /* KVOController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 115D34919ADBF73358FDE88F22C8936E;
+			remoteInfo = KVOController;
+		};
+		37C9D3F1AF9CAD516B5C8100CAEF7993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B233CC7A88065E1D8AF710072EA338F9 /* TABAnimated.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BECB630D6D835A4D58A669E5A2983670;
+			remoteInfo = TABAnimated;
+		};
+		392BF3B79B0934840BF391AC04DD5D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18994CAB956EA870954E02F07B75EE5 /* YYWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DD7846CA4CFA566CB37A8CB3352EBA;
+			remoteInfo = YYWebImage;
+		};
+		3AB2D5728D39C5B041850DA01DC3800D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710200C3B580D77274E28C2C9499E277 /* CL_ShanYanSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A884B903E470B6B45A5448D794E37B9;
+			remoteInfo = CL_ShanYanSDK;
+		};
+		3B134050E078A64540504478662388D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E399F9F747525A644AB39D89CFEF9A1 /* SVProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A902363E0683102423DADEA0C0D4541;
+			remoteInfo = SVProgressHUD;
+		};
+		3B3294EAF83E6D1CB176233E550DF7B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E399F9F747525A644AB39D89CFEF9A1 /* SVProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A902363E0683102423DADEA0C0D4541;
+			remoteInfo = SVProgressHUD;
+		};
+		3BDC8841A4802FE50C903D4F1940A906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58D93D169969C032AEC0C41303CA94F /* AFNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
+			remoteInfo = AFNetworking;
+		};
+		3F5461B050C619FBA8EAAC2BFE4CC8E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6162FA1D19F7BCCC4AAFB0BE38B5951C /* JXTAlertManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B565EB44149AEE95A1273D6584CCC7;
+			remoteInfo = JXTAlertManager;
+		};
+		4235316C7743C5E1DDC5CAD1B598FCAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B009026AE3160FA79FD9FBCAC935B5 /* UICollectionViewLeftAlignedLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EA4579F2180E307A2ACD2E604118DB;
+			remoteInfo = UICollectionViewLeftAlignedLayout;
+		};
+		426AB69524BF79AE980ED1B3D1B5AE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E399F9F747525A644AB39D89CFEF9A1 /* SVProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A902363E0683102423DADEA0C0D4541;
+			remoteInfo = SVProgressHUD;
+		};
+		42FD1CE957443DF463B0D8C8E30E62F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1EB5B25AD2B6B9DFF6BDCAF0023D239 /* UMCSecurityPlugins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88026F641AA82B8816C3A997FD675125;
+			remoteInfo = UMCSecurityPlugins;
+		};
+		4556466BCE6A02F7D64E8BE6B5C5CE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF3CC684B42087B3DE2AEDD98AE1482 /* libOpenInstallSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1C0F6E45B92560C93D0DE4A036D0AC;
+			remoteInfo = libOpenInstallSDK;
+		};
+		484AFC3FEBC16C575664A1F1F0826353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C0F5FEDABD3ED3D98448F19BBC30C85 /* YBImageBrowser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A13069CD227D6C648A6A2BF33159B4FA;
+			remoteInfo = YBImageBrowser;
+		};
+		4940626683075259759A3455709F338F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6F13EDE30B61E0D04FEA1E483D9A5A /* BGFMDB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD68C38B5304651D7299EAF7DEA1DB3;
+			remoteInfo = BGFMDB;
+		};
+		4C01C53291EB5B6C12E80C81CFF45591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25759B0662A135E2947C0036B4B9EFE7 /* Bytedance-UnionAD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5332E9233532B4756DF3841BFF2A4D94;
+			remoteInfo = "Bytedance-UnionAD";
+		};
+		4DCE36211FF0F9B50833A20FA9E18F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25759B0662A135E2947C0036B4B9EFE7 /* Bytedance-UnionAD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5332E9233532B4756DF3841BFF2A4D94;
+			remoteInfo = "Bytedance-UnionAD";
+		};
+		4ED82ED92B9D86A2EDF1CFC87E364809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C62BB808599604719F38AC73B0B6D8 /* YYText.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E4DD13C21C218AB8CF84FBB29F3285;
+			remoteInfo = YYText;
+		};
+		5164C0D65DD8FE342372A718E03E57A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CF3FDEC347A8C5FA1AA905A0566C466 /* KTVHTTPCache.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C00DC50DE064F4D89CECEA42E8341114;
+			remoteInfo = KTVHTTPCache;
+		};
+		516FE366D06CC72874A9BDAF13905C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB52E5DF359FF2790585C805BA2E9D9 /* UMDevice.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 857F6E4CA7F98A83C25307AF7FACF2F0;
+			remoteInfo = UMDevice;
+		};
+		52640F0188444279EDB1DCEA217D8445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7D421BADA21ABDC6D70794CC06F954 /* UICountingLabel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4ADEEB6E5FC16B6428D2E16F610261;
+			remoteInfo = UICountingLabel;
+		};
+		555FC362370D103A48EC83105695C874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2941ED6FDC51B68227ECA71C1CBA79DE /* MJExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DCB41C64D8AA20B24D05162BE708C8F;
+			remoteInfo = MJExtension;
+		};
+		55772B6270C001743D9BF752A517FE15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96BB6CBC7C7CDF5754D6794F15F1774 /* VODUpload.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3673908959C8548BCF0C280416AEC9;
+			remoteInfo = VODUpload;
+		};
+		569130AD15578175B6E433A2CB114868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB15D4CF6F2755ADDE66194A8D69F63 /* YYKeyboardManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF281AF3A7138EC79EDA081A8B1A0C1;
+			remoteInfo = YYKeyboardManager;
+		};
+		57105D56D627B604C61FE05100C64B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162D4976BF6802C76AAA6270CB9CCF87 /* ReactiveObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58630A911E82956281CDF1C822E7FC41;
+			remoteInfo = ReactiveObjC;
+		};
+		57F169B63A2A9F160DB82A75D7D21A2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534FCC38BE732BDE75246F231E66F2A7 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 028565F879BDCF0F420E4AB07AAF9426;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		5844678443FE830A2082DA7F331FF969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770F81990AEBD406006EC0A42FF50BF9 /* BMKLocationKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 374FBC7427BBFE615C7E04A259690B6B;
+			remoteInfo = BMKLocationKit;
+		};
+		5CC8B649D9D62D6F79AFD8F492BCCE44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8F92C78D019A5472A6B1D3C2B41E32 /* SensorsAnalyticsSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3A421779D2788A2F292E5653ADA649;
+			remoteInfo = SensorsAnalyticsSDK;
+		};
+		5CE1A4BACFC62111329F3A0D3A68FE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE93AC9B404DEDC4D86D1E2A1A290CF8 /* Masonry.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
+			remoteInfo = Masonry;
+		};
+		606F2CE24AB41FC367C5B9DCBFF709EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13121BBBDE646E8CFC916D86A1F6427C /* YYModel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B24F71FDC23D2B2E241DE51DECC7ED5F;
+			remoteInfo = YYModel;
+		};
+		610A3B3C1C5DE058CF3D1FEB591E4463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534FCC38BE732BDE75246F231E66F2A7 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 028565F879BDCF0F420E4AB07AAF9426;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		689F8BC66457D741F91B28490E14A270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397CC990BBA59D806CEF1E1C2E8965CC /* UMShare.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD45B16071E661FF0BEAEE9C9D36FB0;
+			remoteInfo = UMShare;
+		};
+		6B92581D3196BD90BA791E4EA1A82598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E153CC89DD656EB5E3B23C28F06B638 /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F48A71D28991325602E8C8A19DF1F64;
+			remoteInfo = MBProgressHUD;
+		};
+		6D125C5F1B148221D75E673F8093E4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18994CAB956EA870954E02F07B75EE5 /* YYWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DD7846CA4CFA566CB37A8CB3352EBA;
+			remoteInfo = YYWebImage;
+		};
+		6D59A5692A09C015C5EEB493CDA064E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534FCC38BE732BDE75246F231E66F2A7 /* CocoaAsyncSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 028565F879BDCF0F420E4AB07AAF9426;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		7065C9D56F52764E1D4269FE6A0BCA24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C902162A7A99C8E3AE2A559052E49AD /* Bugly.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E0D2EB2A5CB1517203552D2DE64F8E;
+			remoteInfo = Bugly;
+		};
+		71305D1115CC54CC24857B4795AC935B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D96AC315F25BD0277E74664E0FC96B /* SPAlertController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD1F872160A30AEBF011B6A31A11939;
+			remoteInfo = SPAlertController;
+		};
+		73BC2AF830E327BAD6B9FC36AD164026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1B7136B25FEFAC42602920861AA64F /* TZImagePickerController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6090C91802307673CBF0A57EF1608978;
+			remoteInfo = TZImagePickerController;
+		};
+		77ABC47A0396195DFDADF7C6E186FD63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45753699E59799C2FCB7F5B5B5AB956C /* AliyunOSSiOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB2113C4B39004834525ABA7F5B21EE;
+			remoteInfo = AliyunOSSiOS;
+		};
+		78B3EB2C7375EE655FDAB51CE8FB3041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397CC990BBA59D806CEF1E1C2E8965CC /* UMShare.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD45B16071E661FF0BEAEE9C9D36FB0;
+			remoteInfo = UMShare;
+		};
+		7D0D765A4B6EEF5199F0829894890780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 770F81990AEBD406006EC0A42FF50BF9 /* BMKLocationKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 374FBC7427BBFE615C7E04A259690B6B;
+			remoteInfo = BMKLocationKit;
+		};
+		7D5F9EC5D194D9F53FC3047C65C56AA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E2157B0BB492AE431DC4E7E171806C /* lottie-ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FFD4CF15B40CE17E04F3BC6AAF7035A;
+			remoteInfo = "lottie-ios";
+		};
+		7E7C4AC11F2202BA0F1B7B617C390802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3179EA34A0E235DA58402195734B29 /* WZLBadge.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF2E64C42CEF974BA2B8F2060D3B6BB;
+			remoteInfo = WZLBadge;
+		};
+		7EF5BF4AB62132E4346598422A26871C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB15D4CF6F2755ADDE66194A8D69F63 /* YYKeyboardManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF281AF3A7138EC79EDA081A8B1A0C1;
+			remoteInfo = YYKeyboardManager;
+		};
+		7F4E5B2D613F2F9E32F74C3FD41FC5B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8F92C78D019A5472A6B1D3C2B41E32 /* SensorsAnalyticsSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3A421779D2788A2F292E5653ADA649;
+			remoteInfo = SensorsAnalyticsSDK;
+		};
+		85501539697ABA1F5F8F8D255B3155C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF3CC684B42087B3DE2AEDD98AE1482 /* libOpenInstallSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1C0F6E45B92560C93D0DE4A036D0AC;
+			remoteInfo = libOpenInstallSDK;
+		};
+		85C8DD86438556AE073FD50E5BE172DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC99743CA5A1DD5705CC650CFE1B68D /* YYImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A687989E871964747CED931C10657C;
+			remoteInfo = YYImage;
+		};
+		85E39442DA4998780C43DD2943395DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE93AC9B404DEDC4D86D1E2A1A290CF8 /* Masonry.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C0965FF775F51458AD4A8E41ABAB7D1E;
+			remoteInfo = Masonry;
+		};
+		8634F6D689B56F88C58975F0B831F8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D96AC315F25BD0277E74664E0FC96B /* SPAlertController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD1F872160A30AEBF011B6A31A11939;
+			remoteInfo = SPAlertController;
+		};
+		86A63E3513DA10E4B9D1191263105D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E153CC89DD656EB5E3B23C28F06B638 /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F48A71D28991325602E8C8A19DF1F64;
+			remoteInfo = MBProgressHUD;
+		};
+		8803A3AFD878D224B004ECC60B0F1625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2F466187DD34214B6280DA75581B74 /* NIMSDK_LITE.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3206163AD91A2C1A3BF1FB04560E7E5B;
+			remoteInfo = NIMSDK_LITE;
+		};
+		880D0AADE5A7B26F1A82259EC0A122B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1EB5B25AD2B6B9DFF6BDCAF0023D239 /* UMCSecurityPlugins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88026F641AA82B8816C3A997FD675125;
+			remoteInfo = UMCSecurityPlugins;
+		};
+		888B69A5DFBE7A3AF1714CD7310FDB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96BB6CBC7C7CDF5754D6794F15F1774 /* VODUpload.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3673908959C8548BCF0C280416AEC9;
+			remoteInfo = VODUpload;
+		};
+		88DDBAD8AEF22454E5F7C9E4466EEA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF3CC684B42087B3DE2AEDD98AE1482 /* libOpenInstallSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1C0F6E45B92560C93D0DE4A036D0AC;
+			remoteInfo = libOpenInstallSDK;
+		};
+		890C5942333404AC72CF021A2F8C45E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B009026AE3160FA79FD9FBCAC935B5 /* UICollectionViewLeftAlignedLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EA4579F2180E307A2ACD2E604118DB;
+			remoteInfo = UICollectionViewLeftAlignedLayout;
+		};
+		8BE967F4B09FEBFCDD3E706459F9EC6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00C7E74014EA420539FD02614290108 /* MJRefresh.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E94AEF767442EDAAAAB2129CDFA2C2ED;
+			remoteInfo = MJRefresh;
+		};
+		8C68FF4040B244FA511004361B31DEF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1EB5B25AD2B6B9DFF6BDCAF0023D239 /* UMCSecurityPlugins.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 88026F641AA82B8816C3A997FD675125;
+			remoteInfo = UMCSecurityPlugins;
+		};
+		93539ADF725492398AE10347FC02A992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13121BBBDE646E8CFC916D86A1F6427C /* YYModel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B24F71FDC23D2B2E241DE51DECC7ED5F;
+			remoteInfo = YYModel;
+		};
+		95F6A16BFD02D6E8012D2201882FFFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397CC990BBA59D806CEF1E1C2E8965CC /* UMShare.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD45B16071E661FF0BEAEE9C9D36FB0;
+			remoteInfo = UMShare;
+		};
+		95F91E2A9491E9BF8982504AD327111D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEFF6DF7BD3BBF26CB99FDB621F2743B /* YYCache.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B4EFD655BE7A67C6F5C5E6F514BDB9;
+			remoteInfo = YYCache;
+		};
+		96B3BB4BF33E21F977E1858F1F9A4FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3179EA34A0E235DA58402195734B29 /* WZLBadge.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF2E64C42CEF974BA2B8F2060D3B6BB;
+			remoteInfo = WZLBadge;
+		};
+		9CBDCAFF7EA6EA0CBB17BB0BDA6514D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18994CAB956EA870954E02F07B75EE5 /* YYWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DD7846CA4CFA566CB37A8CB3352EBA;
+			remoteInfo = YYWebImage;
+		};
+		9D2FE34E26477AF7271064CFE4FC2692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74D47556E35B3D63E8D582E5FE2F60B4 /* KTVCocoaHTTPServer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E5965663A3E5E8262B1291E2562AAA12;
+			remoteInfo = KTVCocoaHTTPServer;
+		};
+		9D61E00BD0D4B7F7C1974CADDE770281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF767F699F4BC3BFBC9CB8E623EA62F6 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
+			remoteInfo = SDWebImage;
+		};
+		9E02D5C3A1FA526675ABCA811075A83D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8F92C78D019A5472A6B1D3C2B41E32 /* SensorsAnalyticsSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3A421779D2788A2F292E5653ADA649;
+			remoteInfo = SensorsAnalyticsSDK;
+		};
+		9F208E24B8C15847E478A85BC29C0CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B233CC7A88065E1D8AF710072EA338F9 /* TABAnimated.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BECB630D6D835A4D58A669E5A2983670;
+			remoteInfo = TABAnimated;
+		};
+		AB9E42BD6CF1F902FAD054E1A5220424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAEF1B710FF640582C2BD4503BEC9AE /* BaiduMapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 757204F65884C1603C2AF71AED97F002;
+			remoteInfo = BaiduMapKit;
+		};
+		ABB181AE60F740A76FAB0AD221BF3501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC99743CA5A1DD5705CC650CFE1B68D /* YYImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A687989E871964747CED931C10657C;
+			remoteInfo = YYImage;
+		};
+		AD655FAC78877B8B1F737F21F0113163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A2F466187DD34214B6280DA75581B74 /* NIMSDK_LITE.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3206163AD91A2C1A3BF1FB04560E7E5B;
+			remoteInfo = NIMSDK_LITE;
+		};
+		B0702501D27851B1227752B56BA6AEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B53608C9FC913BB2B9D7251F9F6BAD /* MGSwipeTableCell.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 09ADC652ED40A47BEAE998FC7C02CEA2;
+			remoteInfo = MGSwipeTableCell;
+		};
+		B07DAE1C5EAAE5A38EDEABB51E7F7B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF6F13EDE30B61E0D04FEA1E483D9A5A /* BGFMDB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD68C38B5304651D7299EAF7DEA1DB3;
+			remoteInfo = BGFMDB;
+		};
+		B18FC89B9D658C78C7A58EF4844DD582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6162FA1D19F7BCCC4AAFB0BE38B5951C /* JXTAlertManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B565EB44149AEE95A1273D6584CCC7;
+			remoteInfo = JXTAlertManager;
+		};
+		B4C947430C135560E1495BA3BB82C30E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E2157B0BB492AE431DC4E7E171806C /* lottie-ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FFD4CF15B40CE17E04F3BC6AAF7035A;
+			remoteInfo = "lottie-ios";
+		};
+		B60EB4197621578A978BD823249F7A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3179EA34A0E235DA58402195734B29 /* WZLBadge.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF2E64C42CEF974BA2B8F2060D3B6BB;
+			remoteInfo = WZLBadge;
+		};
+		B664309D057F382E17CBA3588D92BC25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45753699E59799C2FCB7F5B5B5AB956C /* AliyunOSSiOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB2113C4B39004834525ABA7F5B21EE;
+			remoteInfo = AliyunOSSiOS;
+		};
+		BC340AC9AE806C8FAE4626999DDC62CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B61FC262DA18FDDB74EAD4EB8556FF /* UMPush.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4C15EC2F685521B6405A2830C10FE4;
+			remoteInfo = UMPush;
+		};
+		BD31A57A7074EA7A69E10E6D57730445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAEF1B710FF640582C2BD4503BEC9AE /* BaiduMapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 757204F65884C1603C2AF71AED97F002;
+			remoteInfo = BaiduMapKit;
+		};
+		BE5D853B18E0F3EC9AAFCEF02615CE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E2157B0BB492AE431DC4E7E171806C /* lottie-ios.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FFD4CF15B40CE17E04F3BC6AAF7035A;
+			remoteInfo = "lottie-ios";
+		};
+		BE644D31B9F149E2861C2B69B685E8E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00C7E74014EA420539FD02614290108 /* MJRefresh.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E94AEF767442EDAAAAB2129CDFA2C2ED;
+			remoteInfo = MJRefresh;
+		};
+		BED831C1B3B0D7D6F4EF2554667EE67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D96AC315F25BD0277E74664E0FC96B /* SPAlertController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD1F872160A30AEBF011B6A31A11939;
+			remoteInfo = SPAlertController;
+		};
+		BEE785F4C585F6BD320395C1742FE02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEFF6DF7BD3BBF26CB99FDB621F2743B /* YYCache.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B4EFD655BE7A67C6F5C5E6F514BDB9;
+			remoteInfo = YYCache;
+		};
+		C29359F9D4A2B7ED28C6B93556779E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E16CC35E97100202A3403405B485A2 /* UMCommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E107150262EBBCAD58EEF53FF44299F;
+			remoteInfo = UMCommon;
+		};
+		C59D0A56C5882ABD026478C3BFC6D748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E153CC89DD656EB5E3B23C28F06B638 /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F48A71D28991325602E8C8A19DF1F64;
+			remoteInfo = MBProgressHUD;
+		};
+		C5D2DFB713A00691AEFD09DC952E1539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40EFDCF942F48C2CEDFFB22615D7A935 /* IGListDiffKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9074A5DFB260E6240F743D74D3F432DD;
+			remoteInfo = IGListDiffKit;
+		};
+		C60071C0ECA037EA6438D3FFE8410CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB52E5DF359FF2790585C805BA2E9D9 /* UMDevice.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 857F6E4CA7F98A83C25307AF7FACF2F0;
+			remoteInfo = UMDevice;
+		};
+		CABF8BB5243AE0E7240816705B514A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79E8114EC018FF471805472E8242458 /* LXMButtonImagePosition.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE09F3CCB05DFC5C727239E5E132DA8;
+			remoteInfo = LXMButtonImagePosition;
+		};
+		CB35BD28220C65AF7FE30F10EC31CA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAEF1B710FF640582C2BD4503BEC9AE /* BaiduMapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 757204F65884C1603C2AF71AED97F002;
+			remoteInfo = BaiduMapKit;
+		};
+		CFA0A43F621264BB9D18EA7FA9F53BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C75D4DB32892C3ADB15A5DDBC9B098 /* FDFullscreenPopGesture.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BAA0D80184552CA0F0647BF03C3D1B;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		CFBB86D63B2A4462FCE270050F2F4EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2941ED6FDC51B68227ECA71C1CBA79DE /* MJExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DCB41C64D8AA20B24D05162BE708C8F;
+			remoteInfo = MJExtension;
+		};
+		D0BFCCBBE3FF461B9F8DBF42EE874ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDE578DF9A7B0E71744E0C1F822786A /* KVOController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 115D34919ADBF73358FDE88F22C8936E;
+			remoteInfo = KVOController;
+		};
+		D203C5DA9D198C394BC92C93D0BD44A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDE578DF9A7B0E71744E0C1F822786A /* KVOController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 115D34919ADBF73358FDE88F22C8936E;
+			remoteInfo = KVOController;
+		};
+		D21799606EEBCC49CD93E26C7911C0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C62BB808599604719F38AC73B0B6D8 /* YYText.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E4DD13C21C218AB8CF84FBB29F3285;
+			remoteInfo = YYText;
+		};
+		D7859CFEB80422550D1FBABBA91E3C0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B53608C9FC913BB2B9D7251F9F6BAD /* MGSwipeTableCell.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 09ADC652ED40A47BEAE998FC7C02CEA2;
+			remoteInfo = MGSwipeTableCell;
+		};
+		DB5A76FFB12DA467130852DD29117919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79E8114EC018FF471805472E8242458 /* LXMButtonImagePosition.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE09F3CCB05DFC5C727239E5E132DA8;
+			remoteInfo = LXMButtonImagePosition;
+		};
+		DCA5489F101DE4A1ED4A5BFE950DD29E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA1B7136B25FEFAC42602920861AA64F /* TZImagePickerController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6090C91802307673CBF0A57EF1608978;
+			remoteInfo = TZImagePickerController;
+		};
+		DF483A66FCF2F07E06CC7483528AD61F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB52E5DF359FF2790585C805BA2E9D9 /* UMDevice.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 857F6E4CA7F98A83C25307AF7FACF2F0;
+			remoteInfo = UMDevice;
+		};
+		E463507895CE733580ED6316DAB2BE5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58D93D169969C032AEC0C41303CA94F /* AFNetworking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B561AD1B13C486A61C9BF66B4E6D8F89;
+			remoteInfo = AFNetworking;
+		};
+		E617DAF672E56627A89C32B3F8E606DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00C7E74014EA420539FD02614290108 /* MJRefresh.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E94AEF767442EDAAAAB2129CDFA2C2ED;
+			remoteInfo = MJRefresh;
+		};
+		E84A39708DCEFE2C375B6789923570A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CF3FDEC347A8C5FA1AA905A0566C466 /* KTVHTTPCache.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C00DC50DE064F4D89CECEA42E8341114;
+			remoteInfo = KTVHTTPCache;
+		};
+		E8552557DBA51BA8D99469F1151821B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C62BB808599604719F38AC73B0B6D8 /* YYText.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E4DD13C21C218AB8CF84FBB29F3285;
+			remoteInfo = YYText;
+		};
+		EB67766E3C371A2EDDFFF114B47BCC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74D47556E35B3D63E8D582E5FE2F60B4 /* KTVCocoaHTTPServer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E5965663A3E5E8262B1291E2562AAA12;
+			remoteInfo = KTVCocoaHTTPServer;
+		};
+		EBA2E66FC7C0F154249B71DA396E140D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96BB6CBC7C7CDF5754D6794F15F1774 /* VODUpload.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D3673908959C8548BCF0C280416AEC9;
+			remoteInfo = VODUpload;
+		};
+		EBDCC8D992048B50DA1E14CA8B1AC476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B233CC7A88065E1D8AF710072EA338F9 /* TABAnimated.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BECB630D6D835A4D58A669E5A2983670;
+			remoteInfo = TABAnimated;
+		};
+		ECF7B8A95B30B8A77A04378AF7A3E120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF767F699F4BC3BFBC9CB8E623EA62F6 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECF4E662EEBE4FA58102FF984D920CC;
+			remoteInfo = SDWebImage;
+		};
+		ED2D4EDD434E8BC03149436A0532509A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB15D4CF6F2755ADDE66194A8D69F63 /* YYKeyboardManager.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF281AF3A7138EC79EDA081A8B1A0C1;
+			remoteInfo = YYKeyboardManager;
+		};
+		ED67973EC565215AA1D663F41B4F859A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B009026AE3160FA79FD9FBCAC935B5 /* UICollectionViewLeftAlignedLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EA4579F2180E307A2ACD2E604118DB;
+			remoteInfo = UICollectionViewLeftAlignedLayout;
+		};
+		EEF9026AABC0D01C06AE7847AB85ACA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45753699E59799C2FCB7F5B5B5AB956C /* AliyunOSSiOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB2113C4B39004834525ABA7F5B21EE;
+			remoteInfo = AliyunOSSiOS;
+		};
+		EFCA841941549347628B7C970AE70FB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B61FC262DA18FDDB74EAD4EB8556FF /* UMPush.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B4C15EC2F685521B6405A2830C10FE4;
+			remoteInfo = UMPush;
+		};
+		F65A5CC8C39C9862E1BDA30D73B39ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 805DA97099C69B564DB6B870D85E79A2 /* UITextView+Placeholder.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 906EDD0C4C239FD21D1E23F360F8E43E;
+			remoteInfo = "UITextView+Placeholder";
+		};
+		F6CFBA6EB68374A3E96AB6053DED9BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13121BBBDE646E8CFC916D86A1F6427C /* YYModel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B24F71FDC23D2B2E241DE51DECC7ED5F;
+			remoteInfo = YYModel;
+		};
+		F716D6407B7F2C563E3C729A1130722D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2941ED6FDC51B68227ECA71C1CBA79DE /* MJExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DCB41C64D8AA20B24D05162BE708C8F;
+			remoteInfo = MJExtension;
+		};
+		F861CF2BDDB4D0D45F09F3AC4949F634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC5C77A3655623D13B7D1294DC1BAC63 /* CHTCollectionViewWaterfallLayout.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F9F64DBC2D8FF3BF94F8416F72DA6F;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+		FC9512224CB608918136377A85C65EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C0F5FEDABD3ED3D98448F19BBC30C85 /* YBImageBrowser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A13069CD227D6C648A6A2BF33159B4FA;
+			remoteInfo = YBImageBrowser;
+		};
+		FCF392EEA70F93FD9BF067FB24455715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74D47556E35B3D63E8D582E5FE2F60B4 /* KTVCocoaHTTPServer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E5965663A3E5E8262B1291E2562AAA12;
+			remoteInfo = KTVCocoaHTTPServer;
+		};
+		FD553C99641FE4F7F776A6BDBAF80CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710C4F43F179730D91745DDD3EAC0888 /* IGListKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C5D6FE2744F299C4B5885492E7CFF8C;
+			remoteInfo = IGListKit;
+		};
+		FE98AB87A42C8762E262B2C8980C80D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25759B0662A135E2947C0036B4B9EFE7 /* Bytedance-UnionAD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5332E9233532B4756DF3841BFF2A4D94;
+			remoteInfo = "Bytedance-UnionAD";
+		};
+		FEB254A9285A38DE00BDF89634D0EF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710200C3B580D77274E28C2C9499E277 /* CL_ShanYanSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A884B903E470B6B45A5448D794E37B9;
+			remoteInfo = CL_ShanYanSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06BDF2C5223AF4402A3836B76FF0161C /* Pods-YaoWang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YaoWang.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0F5FEDABD3ED3D98448F19BBC30C85 /* YBImageBrowser */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YBImageBrowser; path = YBImageBrowser.xcodeproj; sourceTree = "<group>"; };
+		0CF3FDEC347A8C5FA1AA905A0566C466 /* KTVHTTPCache */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KTVHTTPCache; path = KTVHTTPCache.xcodeproj; sourceTree = "<group>"; };
+		13121BBBDE646E8CFC916D86A1F6427C /* YYModel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYModel; path = YYModel.xcodeproj; sourceTree = "<group>"; };
+		162D4976BF6802C76AAA6270CB9CCF87 /* ReactiveObjC */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveObjC; path = ReactiveObjC.xcodeproj; sourceTree = "<group>"; };
+		25759B0662A135E2947C0036B4B9EFE7 /* Bytedance-UnionAD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Bytedance-UnionAD"; path = "Bytedance-UnionAD.xcodeproj"; sourceTree = "<group>"; };
+		27ADB6F21F7B09F9E2A3091A9A5185E4 /* Pods-YaoWangUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YaoWangUITests-dummy.m"; sourceTree = "<group>"; };
+		28529F6563A53BB97F3D245761AE2066 /* libPods-YaoWang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YaoWang.a"; path = "libPods-YaoWang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2941ED6FDC51B68227ECA71C1CBA79DE /* MJExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJExtension; path = MJExtension.xcodeproj; sourceTree = "<group>"; };
+		2E399F9F747525A644AB39D89CFEF9A1 /* SVProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SVProgressHUD; path = SVProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		2FF3CC684B42087B3DE2AEDD98AE1482 /* libOpenInstallSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libOpenInstallSDK; path = libOpenInstallSDK.xcodeproj; sourceTree = "<group>"; };
+		33D96AC315F25BD0277E74664E0FC96B /* SPAlertController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SPAlertController; path = SPAlertController.xcodeproj; sourceTree = "<group>"; };
+		33E1C6BEFE0417AC6CE217AE39D4273E /* Pods-YaoWangTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YaoWangTests-dummy.m"; sourceTree = "<group>"; };
+		37B53608C9FC913BB2B9D7251F9F6BAD /* MGSwipeTableCell */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MGSwipeTableCell; path = MGSwipeTableCell.xcodeproj; sourceTree = "<group>"; };
+		38960CCA921A04A408C8A223ABFC29C3 /* Pods-YaoWang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YaoWang.release.xcconfig"; sourceTree = "<group>"; };
+		392476EDEF8954A6C516496994E78F41 /* Pods-YaoWangTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YaoWangTests-resources.sh"; sourceTree = "<group>"; };
+		397CC990BBA59D806CEF1E1C2E8965CC /* UMShare */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMShare; path = UMShare.xcodeproj; sourceTree = "<group>"; };
+		3F8F92C78D019A5472A6B1D3C2B41E32 /* SensorsAnalyticsSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SensorsAnalyticsSDK; path = SensorsAnalyticsSDK.xcodeproj; sourceTree = "<group>"; };
+		3FC99743CA5A1DD5705CC650CFE1B68D /* YYImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYImage; path = YYImage.xcodeproj; sourceTree = "<group>"; };
+		40EFDCF942F48C2CEDFFB22615D7A935 /* IGListDiffKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IGListDiffKit; path = IGListDiffKit.xcodeproj; sourceTree = "<group>"; };
+		45753699E59799C2FCB7F5B5B5AB956C /* AliyunOSSiOS */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AliyunOSSiOS; path = AliyunOSSiOS.xcodeproj; sourceTree = "<group>"; };
+		45B61FC262DA18FDDB74EAD4EB8556FF /* UMPush */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMPush; path = UMPush.xcodeproj; sourceTree = "<group>"; };
+		4C7D421BADA21ABDC6D70794CC06F954 /* UICountingLabel */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UICountingLabel; path = UICountingLabel.xcodeproj; sourceTree = "<group>"; };
+		534FCC38BE732BDE75246F231E66F2A7 /* CocoaAsyncSocket */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaAsyncSocket; path = CocoaAsyncSocket.xcodeproj; sourceTree = "<group>"; };
+		549511602313D7FC9E3C35D5465E414C /* Pods-YaoWangUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YaoWangUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54A98C964E8ADC34D19A13126A176CFC /* libPods-YaoWangTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YaoWangTests.a"; path = "libPods-YaoWangTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5861563AE5181216BC039F6D7E62FEFA /* Pods-YaoWangUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YaoWangUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A8D1B0B901AB15DF7751C9A6B607460 /* Pods-YaoWangTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YaoWangTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6162FA1D19F7BCCC4AAFB0BE38B5951C /* JXTAlertManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JXTAlertManager; path = JXTAlertManager.xcodeproj; sourceTree = "<group>"; };
+		61CA2D0FB322F3E71F9B1C48D27547A1 /* Pods-YaoWang-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YaoWang-frameworks.sh"; sourceTree = "<group>"; };
+		656F925C48A498D1C17F8441D78049C5 /* Pods-YaoWang-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YaoWang-resources.sh"; sourceTree = "<group>"; };
+		69A1310202837D448AF8203FA712ADBD /* Pods-YaoWangUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YaoWangUITests-resources.sh"; sourceTree = "<group>"; };
+		6BA38476007EEA5C3F04238BD16EB066 /* Pods-YaoWangUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YaoWangUITests-frameworks.sh"; sourceTree = "<group>"; };
+		710200C3B580D77274E28C2C9499E277 /* CL_ShanYanSDK */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CL_ShanYanSDK; path = CL_ShanYanSDK.xcodeproj; sourceTree = "<group>"; };
+		710C4F43F179730D91745DDD3EAC0888 /* IGListKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IGListKit; path = IGListKit.xcodeproj; sourceTree = "<group>"; };
+		74D47556E35B3D63E8D582E5FE2F60B4 /* KTVCocoaHTTPServer */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KTVCocoaHTTPServer; path = KTVCocoaHTTPServer.xcodeproj; sourceTree = "<group>"; };
+		76E16CC35E97100202A3403405B485A2 /* UMCommon */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCommon; path = UMCommon.xcodeproj; sourceTree = "<group>"; };
+		770F81990AEBD406006EC0A42FF50BF9 /* BMKLocationKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BMKLocationKit; path = BMKLocationKit.xcodeproj; sourceTree = "<group>"; };
+		7C902162A7A99C8E3AE2A559052E49AD /* Bugly */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bugly; path = Bugly.xcodeproj; sourceTree = "<group>"; };
+		805DA97099C69B564DB6B870D85E79A2 /* UITextView+Placeholder */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "UITextView+Placeholder"; path = "UITextView+Placeholder.xcodeproj"; sourceTree = "<group>"; };
+		855370D4D7BC97438D88CF6B591FEB65 /* Pods-YaoWangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YaoWangTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB15D4CF6F2755ADDE66194A8D69F63 /* YYKeyboardManager */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYKeyboardManager; path = YYKeyboardManager.xcodeproj; sourceTree = "<group>"; };
+		98B3BFD338E047C602DB1349F1F162E5 /* Pods-YaoWangTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YaoWangTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A2F466187DD34214B6280DA75581B74 /* NIMSDK_LITE */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NIMSDK_LITE; path = NIMSDK_LITE.xcodeproj; sourceTree = "<group>"; };
+		9B24C32A4485116EDEE9A2FEE5CD3963 /* Pods-YaoWangUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YaoWangUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDE578DF9A7B0E71744E0C1F822786A /* KVOController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KVOController; path = KVOController.xcodeproj; sourceTree = "<group>"; };
+		9E153CC89DD656EB5E3B23C28F06B638 /* MBProgressHUD */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD; path = MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		A2C75D4DB32892C3ADB15A5DDBC9B098 /* FDFullscreenPopGesture */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDFullscreenPopGesture; path = FDFullscreenPopGesture.xcodeproj; sourceTree = "<group>"; };
+		A96BB6CBC7C7CDF5754D6794F15F1774 /* VODUpload */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VODUpload; path = VODUpload.xcodeproj; sourceTree = "<group>"; };
+		AA1B7136B25FEFAC42602920861AA64F /* TZImagePickerController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TZImagePickerController; path = TZImagePickerController.xcodeproj; sourceTree = "<group>"; };
+		AF6F13EDE30B61E0D04FEA1E483D9A5A /* BGFMDB */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BGFMDB; path = BGFMDB.xcodeproj; sourceTree = "<group>"; };
+		AF767F699F4BC3BFBC9CB8E623EA62F6 /* SDWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		B233CC7A88065E1D8AF710072EA338F9 /* TABAnimated */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TABAnimated; path = TABAnimated.xcodeproj; sourceTree = "<group>"; };
+		B8E2157B0BB492AE431DC4E7E171806C /* lottie-ios */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "lottie-ios"; path = "lottie-ios.xcodeproj"; sourceTree = "<group>"; };
+		BFF0DA50EFFC2A234EAEF9D162B2FD3E /* Pods-YaoWang-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YaoWang-acknowledgements.plist"; sourceTree = "<group>"; };
+		C18994CAB956EA870954E02F07B75EE5 /* YYWebImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYWebImage; path = YYWebImage.xcodeproj; sourceTree = "<group>"; };
+		C2C62BB808599604719F38AC73B0B6D8 /* YYText */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYText; path = YYText.xcodeproj; sourceTree = "<group>"; };
+		C58D93D169969C032AEC0C41303CA94F /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking; path = AFNetworking.xcodeproj; sourceTree = "<group>"; };
+		C7B009026AE3160FA79FD9FBCAC935B5 /* UICollectionViewLeftAlignedLayout */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UICollectionViewLeftAlignedLayout; path = UICollectionViewLeftAlignedLayout.xcodeproj; sourceTree = "<group>"; };
+		CC5C77A3655623D13B7D1294DC1BAC63 /* CHTCollectionViewWaterfallLayout */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CHTCollectionViewWaterfallLayout; path = CHTCollectionViewWaterfallLayout.xcodeproj; sourceTree = "<group>"; };
+		CDB52E5DF359FF2790585C805BA2E9D9 /* UMDevice */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMDevice; path = UMDevice.xcodeproj; sourceTree = "<group>"; };
+		DD81ACEE8920943707D18B5575DAE377 /* libPods-YaoWangUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YaoWangUITests.a"; path = "libPods-YaoWangUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEFF6DF7BD3BBF26CB99FDB621F2743B /* YYCache */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYCache; path = YYCache.xcodeproj; sourceTree = "<group>"; };
+		E00C7E74014EA420539FD02614290108 /* MJRefresh */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MJRefresh; path = MJRefresh.xcodeproj; sourceTree = "<group>"; };
+		E0552515A32D6AF7F9C6F398C47CDB7D /* Pods-YaoWangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YaoWangTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1EB5B25AD2B6B9DFF6BDCAF0023D239 /* UMCSecurityPlugins */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCSecurityPlugins; path = UMCSecurityPlugins.xcodeproj; sourceTree = "<group>"; };
+		E79E8114EC018FF471805472E8242458 /* LXMButtonImagePosition */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LXMButtonImagePosition; path = LXMButtonImagePosition.xcodeproj; sourceTree = "<group>"; };
+		E8D93373BFF1C80C33E33B45BE465AE6 /* Pods-YaoWang-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YaoWang-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9ADC47B695E6BB82F713BFFD1716779 /* Pods-YaoWangTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YaoWangTests-frameworks.sh"; sourceTree = "<group>"; };
+		EFAEF1B710FF640582C2BD4503BEC9AE /* BaiduMapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BaiduMapKit; path = BaiduMapKit.xcodeproj; sourceTree = "<group>"; };
+		F8B7E991B0C23BA2E472466BBF6F8249 /* Pods-YaoWang-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YaoWang-dummy.m"; sourceTree = "<group>"; };
+		FA3A07A154F16FB1D3BB353D1E8756BE /* Pods-YaoWangUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YaoWangUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD3179EA34A0E235DA58402195734B29 /* WZLBadge */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WZLBadge; path = WZLBadge.xcodeproj; sourceTree = "<group>"; };
+		FE93AC9B404DEDC4D86D1E2A1A290CF8 /* Masonry */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Masonry; path = Masonry.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC4A5D327D09B9BB808ECF8ECD01577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6773CE323E79E0DC3B1AFCBC5CA0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C078EA0D28FA62527F01932F13271FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33ECA20418CB545D7E65CC00AF148489 /* Pods-YaoWangTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A8D1B0B901AB15DF7751C9A6B607460 /* Pods-YaoWangTests-acknowledgements.markdown */,
+				98B3BFD338E047C602DB1349F1F162E5 /* Pods-YaoWangTests-acknowledgements.plist */,
+				33E1C6BEFE0417AC6CE217AE39D4273E /* Pods-YaoWangTests-dummy.m */,
+				E9ADC47B695E6BB82F713BFFD1716779 /* Pods-YaoWangTests-frameworks.sh */,
+				392476EDEF8954A6C516496994E78F41 /* Pods-YaoWangTests-resources.sh */,
+				855370D4D7BC97438D88CF6B591FEB65 /* Pods-YaoWangTests.debug.xcconfig */,
+				E0552515A32D6AF7F9C6F398C47CDB7D /* Pods-YaoWangTests.release.xcconfig */,
+			);
+			name = "Pods-YaoWangTests";
+			path = "Target Support Files/Pods-YaoWangTests";
+			sourceTree = "<group>";
+		};
+		42F3172309EDBF171F90B8EE2DE9DB20 /* Pods-YaoWangUITests */ = {
+			isa = PBXGroup;
+			children = (
+				549511602313D7FC9E3C35D5465E414C /* Pods-YaoWangUITests-acknowledgements.markdown */,
+				FA3A07A154F16FB1D3BB353D1E8756BE /* Pods-YaoWangUITests-acknowledgements.plist */,
+				27ADB6F21F7B09F9E2A3091A9A5185E4 /* Pods-YaoWangUITests-dummy.m */,
+				6BA38476007EEA5C3F04238BD16EB066 /* Pods-YaoWangUITests-frameworks.sh */,
+				69A1310202837D448AF8203FA712ADBD /* Pods-YaoWangUITests-resources.sh */,
+				5861563AE5181216BC039F6D7E62FEFA /* Pods-YaoWangUITests.debug.xcconfig */,
+				9B24C32A4485116EDEE9A2FEE5CD3963 /* Pods-YaoWangUITests.release.xcconfig */,
+			);
+			name = "Pods-YaoWangUITests";
+			path = "Target Support Files/Pods-YaoWangUITests";
+			sourceTree = "<group>";
+		};
+		6976B1968FE044134A057526FB246CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28529F6563A53BB97F3D245761AE2066 /* libPods-YaoWang.a */,
+				54A98C964E8ADC34D19A13126A176CFC /* libPods-YaoWangTests.a */,
+				DD81ACEE8920943707D18B5575DAE377 /* libPods-YaoWangUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7818E378B75E478D5778397622384351 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FC99743CA5A1DD5705CC650CFE1B68D /* YYImage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7BDD1A904B5FBF4E9A3FDDD7D89F2C93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95D7E5B0CCECAA14154AFF6BBE0095B0 /* Pods-YaoWang */,
+				33ECA20418CB545D7E65CC00AF148489 /* Pods-YaoWangTests */,
+				42F3172309EDBF171F90B8EE2DE9DB20 /* Pods-YaoWangUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95D7E5B0CCECAA14154AFF6BBE0095B0 /* Pods-YaoWang */ = {
+			isa = PBXGroup;
+			children = (
+				E8D93373BFF1C80C33E33B45BE465AE6 /* Pods-YaoWang-acknowledgements.markdown */,
+				BFF0DA50EFFC2A234EAEF9D162B2FD3E /* Pods-YaoWang-acknowledgements.plist */,
+				F8B7E991B0C23BA2E472466BBF6F8249 /* Pods-YaoWang-dummy.m */,
+				61CA2D0FB322F3E71F9B1C48D27547A1 /* Pods-YaoWang-frameworks.sh */,
+				656F925C48A498D1C17F8441D78049C5 /* Pods-YaoWang-resources.sh */,
+				06BDF2C5223AF4402A3836B76FF0161C /* Pods-YaoWang.debug.xcconfig */,
+				38960CCA921A04A408C8A223ABFC29C3 /* Pods-YaoWang.release.xcconfig */,
+			);
+			name = "Pods-YaoWang";
+			path = "Target Support Files/Pods-YaoWang";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7818E378B75E478D5778397622384351 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D06D393215692F5F9365C136B75CFF4D /* Pods */,
+				6976B1968FE044134A057526FB246CCA /* Products */,
+				7BDD1A904B5FBF4E9A3FDDD7D89F2C93 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D06D393215692F5F9365C136B75CFF4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C58D93D169969C032AEC0C41303CA94F /* AFNetworking */,
+				45753699E59799C2FCB7F5B5B5AB956C /* AliyunOSSiOS */,
+				EFAEF1B710FF640582C2BD4503BEC9AE /* BaiduMapKit */,
+				AF6F13EDE30B61E0D04FEA1E483D9A5A /* BGFMDB */,
+				770F81990AEBD406006EC0A42FF50BF9 /* BMKLocationKit */,
+				7C902162A7A99C8E3AE2A559052E49AD /* Bugly */,
+				25759B0662A135E2947C0036B4B9EFE7 /* Bytedance-UnionAD */,
+				CC5C77A3655623D13B7D1294DC1BAC63 /* CHTCollectionViewWaterfallLayout */,
+				710200C3B580D77274E28C2C9499E277 /* CL_ShanYanSDK */,
+				534FCC38BE732BDE75246F231E66F2A7 /* CocoaAsyncSocket */,
+				A2C75D4DB32892C3ADB15A5DDBC9B098 /* FDFullscreenPopGesture */,
+				40EFDCF942F48C2CEDFFB22615D7A935 /* IGListDiffKit */,
+				710C4F43F179730D91745DDD3EAC0888 /* IGListKit */,
+				6162FA1D19F7BCCC4AAFB0BE38B5951C /* JXTAlertManager */,
+				74D47556E35B3D63E8D582E5FE2F60B4 /* KTVCocoaHTTPServer */,
+				0CF3FDEC347A8C5FA1AA905A0566C466 /* KTVHTTPCache */,
+				9DDE578DF9A7B0E71744E0C1F822786A /* KVOController */,
+				2FF3CC684B42087B3DE2AEDD98AE1482 /* libOpenInstallSDK */,
+				B8E2157B0BB492AE431DC4E7E171806C /* lottie-ios */,
+				E79E8114EC018FF471805472E8242458 /* LXMButtonImagePosition */,
+				FE93AC9B404DEDC4D86D1E2A1A290CF8 /* Masonry */,
+				9E153CC89DD656EB5E3B23C28F06B638 /* MBProgressHUD */,
+				37B53608C9FC913BB2B9D7251F9F6BAD /* MGSwipeTableCell */,
+				2941ED6FDC51B68227ECA71C1CBA79DE /* MJExtension */,
+				E00C7E74014EA420539FD02614290108 /* MJRefresh */,
+				9A2F466187DD34214B6280DA75581B74 /* NIMSDK_LITE */,
+				162D4976BF6802C76AAA6270CB9CCF87 /* ReactiveObjC */,
+				AF767F699F4BC3BFBC9CB8E623EA62F6 /* SDWebImage */,
+				3F8F92C78D019A5472A6B1D3C2B41E32 /* SensorsAnalyticsSDK */,
+				33D96AC315F25BD0277E74664E0FC96B /* SPAlertController */,
+				2E399F9F747525A644AB39D89CFEF9A1 /* SVProgressHUD */,
+				B233CC7A88065E1D8AF710072EA338F9 /* TABAnimated */,
+				AA1B7136B25FEFAC42602920861AA64F /* TZImagePickerController */,
+				C7B009026AE3160FA79FD9FBCAC935B5 /* UICollectionViewLeftAlignedLayout */,
+				4C7D421BADA21ABDC6D70794CC06F954 /* UICountingLabel */,
+				805DA97099C69B564DB6B870D85E79A2 /* UITextView+Placeholder */,
+				76E16CC35E97100202A3403405B485A2 /* UMCommon */,
+				E1EB5B25AD2B6B9DFF6BDCAF0023D239 /* UMCSecurityPlugins */,
+				CDB52E5DF359FF2790585C805BA2E9D9 /* UMDevice */,
+				45B61FC262DA18FDDB74EAD4EB8556FF /* UMPush */,
+				397CC990BBA59D806CEF1E1C2E8965CC /* UMShare */,
+				A96BB6CBC7C7CDF5754D6794F15F1774 /* VODUpload */,
+				FD3179EA34A0E235DA58402195734B29 /* WZLBadge */,
+				0C0F5FEDABD3ED3D98448F19BBC30C85 /* YBImageBrowser */,
+				DEFF6DF7BD3BBF26CB99FDB621F2743B /* YYCache */,
+				8BB15D4CF6F2755ADDE66194A8D69F63 /* YYKeyboardManager */,
+				13121BBBDE646E8CFC916D86A1F6427C /* YYModel */,
+				C2C62BB808599604719F38AC73B0B6D8 /* YYText */,
+				C18994CAB956EA870954E02F07B75EE5 /* YYWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		433A83BE0CC53D8C1629CDFF47A76E64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1353C1EF27E7AD53686B4B493B03FED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71274D3844C203ADB819F2BADF734FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07719BFA45A803A481884441DBD4D131 /* Pods-YaoWangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9ADA5BD7E9542B5CCEAFB476D866C20 /* Build configuration list for PBXNativeTarget "Pods-YaoWangTests" */;
+			buildPhases = (
+				433A83BE0CC53D8C1629CDFF47A76E64 /* Headers */,
+				BE16CDC0245304FB7C24691DA254DDDD /* Sources */,
+				1F6773CE323E79E0DC3B1AFCBC5CA0DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3D1BFD270F179C01A11A1BCDAC0C62 /* PBXTargetDependency */,
+				E974DC0A3A932240948087CCD55F6858 /* PBXTargetDependency */,
+				5876103545BE93267A0C355346FB0935 /* PBXTargetDependency */,
+				507868DBE3574709396F7D6CE16473F9 /* PBXTargetDependency */,
+				D20BF37C9FF47CA4337F9F511E430322 /* PBXTargetDependency */,
+				19206402023B28AED12F93A334339B21 /* PBXTargetDependency */,
+				93E09F06F694472F9A40C7BECB1F585B /* PBXTargetDependency */,
+				A5B1F21482D550A0C81637F9FF19E665 /* PBXTargetDependency */,
+				81A200B7A603B7F4AB2E8F2216058E74 /* PBXTargetDependency */,
+				30FDDBA79148A528C70098F0CEBE1B2A /* PBXTargetDependency */,
+				8073D08D81D124F41F55925680C15F50 /* PBXTargetDependency */,
+				C704E97ED2314C3A36807C4623AA8D32 /* PBXTargetDependency */,
+				3AF7CF55347A8ED930CD0F96F59C3669 /* PBXTargetDependency */,
+				01E6C0555E4F7C4BF1760AA9D50F992C /* PBXTargetDependency */,
+				5073AF4067B83AF38857A78DABA9FE8F /* PBXTargetDependency */,
+				59561521ABFF24A7D44602D3EED54AD5 /* PBXTargetDependency */,
+				69E8F8BC7FA721C25FA2649BAEDD62D6 /* PBXTargetDependency */,
+				76EA95A2F032B53886029453C3F6F69E /* PBXTargetDependency */,
+				E221A24E4DB789662C06A01A2E73F757 /* PBXTargetDependency */,
+				431263548B393AC67B766E513E97EE7C /* PBXTargetDependency */,
+				CC4504DED0F3C6C17ECA33906514E389 /* PBXTargetDependency */,
+				00F7AFBD892418400C3BB04413237E98 /* PBXTargetDependency */,
+				728260FF7C4B3C43C839E6BA4E4D9142 /* PBXTargetDependency */,
+				87738DC645E71222FDE2D09DC76AC0C4 /* PBXTargetDependency */,
+				B06A4FF9F4D181CABF32C46874C74591 /* PBXTargetDependency */,
+				1EEC97FC461CE38F587EAF31B93AD6CB /* PBXTargetDependency */,
+				0123172B7FEAD219E8E2F59ACD791654 /* PBXTargetDependency */,
+				FE1318CBE07FE1016D8D31A2E5F6D9DC /* PBXTargetDependency */,
+				34B77CFC9E160D9D74767E4C4E65D54E /* PBXTargetDependency */,
+				7BADEB6A09F54A0B33653ACFF7296DAF /* PBXTargetDependency */,
+				A4652D90827C5B12633E2BED48C9C45F /* PBXTargetDependency */,
+				B3EC6305DC78E6D1752122E65F93C711 /* PBXTargetDependency */,
+				D9B5239061EB5823A133ADE20FBD228C /* PBXTargetDependency */,
+				403FF1AAEC7B827417D4B1C75724984D /* PBXTargetDependency */,
+				BAD6CB6C4830CB717E4480A2561DCAFC /* PBXTargetDependency */,
+				5D015ABA5B4BD3DFAD2543E250F46E12 /* PBXTargetDependency */,
+				C97A0E1854606DF60AE763412407FD9C /* PBXTargetDependency */,
+				C927E5F3909FBEDA238BD1C0E8FAC822 /* PBXTargetDependency */,
+				9DEA497885EE6454C3874EE7C81282A4 /* PBXTargetDependency */,
+				2085C751F48F6F076A95CCDA35499E81 /* PBXTargetDependency */,
+				AC6D98E563FBC96C98ACB592CE4B668D /* PBXTargetDependency */,
+				7E7215FD602D0B053598D57999F8B046 /* PBXTargetDependency */,
+				260F1DA0F75935FF7B7043F6B12653D4 /* PBXTargetDependency */,
+				626948B9FF3155C26A20DB20176FA2AD /* PBXTargetDependency */,
+				84F2F79047519D4449EE8FAE7807A45F /* PBXTargetDependency */,
+				C62540CF793FD6EA8746915CFE93F773 /* PBXTargetDependency */,
+				8469936AF05FA282D92C17DD0A526D88 /* PBXTargetDependency */,
+				727FA180441EA71B618E1516360299EF /* PBXTargetDependency */,
+				2A9993423FA684110914A24C4F9F7D4E /* PBXTargetDependency */,
+				1BB93C86B4DEB3F55F6E7FA76BC4AD78 /* PBXTargetDependency */,
+			);
+			name = "Pods-YaoWangTests";
+			productName = "Pods-YaoWangTests";
+			productReference = 54A98C964E8ADC34D19A13126A176CFC /* libPods-YaoWangTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4DB47D4B4EE6065FA227A030655AA831 /* Pods-YaoWang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802B23C6786D39BEFD60444369E4CC8F /* Build configuration list for PBXNativeTarget "Pods-YaoWang" */;
+			buildPhases = (
+				E71274D3844C203ADB819F2BADF734FB /* Headers */,
+				803FFF712B0F368A25C49F6B56A4B104 /* Sources */,
+				C078EA0D28FA62527F01932F13271FAD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC986D20DB749891E32CF403F79ACD3F /* PBXTargetDependency */,
+				A823B17903BAF99D052D29D59BADCE50 /* PBXTargetDependency */,
+				8D66E741AE328C3DDCE5664998F057A6 /* PBXTargetDependency */,
+				56E898B2CABA5010FCD85EE2CB5EFF17 /* PBXTargetDependency */,
+				4B9A4908E423462BEEB67DE1E3BBB02E /* PBXTargetDependency */,
+				0FC674857E0FDD8F707C69E0F6A4B2BF /* PBXTargetDependency */,
+				2AE8A9C5DE63D62A6DBC13597B05AE57 /* PBXTargetDependency */,
+				79366E5D8EA1BFFBC5A36BCE22DD73E8 /* PBXTargetDependency */,
+				98BEFF8BF7EC0F599BAFCB13197576B4 /* PBXTargetDependency */,
+				1E5FC5C7BEDED05C88C78B5FA6D39EA3 /* PBXTargetDependency */,
+				8775191D2969B36916989051C7D52B84 /* PBXTargetDependency */,
+				62A3239AA0EDF11661FC9BE77AED9465 /* PBXTargetDependency */,
+				D3B95DBC9040944E48EEC4996DA8473E /* PBXTargetDependency */,
+				0920247015BC67EF56C9E578AC1A99A1 /* PBXTargetDependency */,
+				CF5963966305D8ACDCA3E35DEBC8CCA7 /* PBXTargetDependency */,
+				073E7C8356967AF998087D817664573A /* PBXTargetDependency */,
+				4944B743B18927FBB8C6955CB65839B4 /* PBXTargetDependency */,
+				C15CB6B84F22F1BF84ECFD10A677211B /* PBXTargetDependency */,
+				21D3DDD5DFDA4391EAC30E58EB833D2B /* PBXTargetDependency */,
+				AA1B0F5BD2595F27B5FA102A750C10E4 /* PBXTargetDependency */,
+				834F50E7CBD2345BBA2E1EAD784E1CFA /* PBXTargetDependency */,
+				DDCA46BB83011054F443B9AAC636AB53 /* PBXTargetDependency */,
+				61712C3D9CA5B58D1D0539CF6B204BF5 /* PBXTargetDependency */,
+				3F9ADB590A51703F5EF6436E014A9E81 /* PBXTargetDependency */,
+				C8FBCFEA54CA5C894D78A9910E68E219 /* PBXTargetDependency */,
+				BD28DC6D205D0ADFEDA0A96BF487254E /* PBXTargetDependency */,
+				D7A6657EC4B1AD2416108479E8922A8B /* PBXTargetDependency */,
+				27EF02AE41FF9290DE2BCBBF5DA938E2 /* PBXTargetDependency */,
+				88F1BFFE9003C211626F3E06D6EB7E89 /* PBXTargetDependency */,
+				1755B2EF74C0927CB0B5E73952ECC1C5 /* PBXTargetDependency */,
+				94D7835714F5670986773B8F54BB0026 /* PBXTargetDependency */,
+				AA6739BD78DA44A9C1E689DB42B25E22 /* PBXTargetDependency */,
+				4439C8E29E0A5251811186C100E72D86 /* PBXTargetDependency */,
+				C76B364D09920E284F0AFA83188DB4E3 /* PBXTargetDependency */,
+				A80EC65A64A1F8FBDDBB362234804F43 /* PBXTargetDependency */,
+				3C7AA0060AC21DE32AF69721F8E13EB1 /* PBXTargetDependency */,
+				53476C1BD55FF7EE617E2286E37C56FC /* PBXTargetDependency */,
+				7B4B05746B4B34B14ABF4054D70268CC /* PBXTargetDependency */,
+				68DD6830B3C36A2A7F05B88819E05D9A /* PBXTargetDependency */,
+				A7220246D56966D21B0807028FE18889 /* PBXTargetDependency */,
+				76AA96B4E25C43D044806DFEBA87E8F7 /* PBXTargetDependency */,
+				698270C65D55F9828474AF04B81C5E5F /* PBXTargetDependency */,
+				451DDA9844B73BE7FC45A32335794E3B /* PBXTargetDependency */,
+				24A01DFF1583C4894B16680A30E7833A /* PBXTargetDependency */,
+				545E7DCDAA77CC9E34C93D4AC62FFAA5 /* PBXTargetDependency */,
+				71E92EC5E37E64A47932A98F8922F790 /* PBXTargetDependency */,
+				43A681B0338BADCD9900FD83DB44702C /* PBXTargetDependency */,
+				E4D217AB4D4A2F1B7B38C405FFE9EB5C /* PBXTargetDependency */,
+				D237327398D88945623AB267D28F2A52 /* PBXTargetDependency */,
+				509B27715BD5478FD6FDABF94A132026 /* PBXTargetDependency */,
+			);
+			name = "Pods-YaoWang";
+			productName = "Pods-YaoWang";
+			productReference = 28529F6563A53BB97F3D245761AE2066 /* libPods-YaoWang.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F55183FDEED1FDC1BC17EB8D83FC0319 /* Pods-YaoWangUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1533B1E527F9A401C8399CA567951CF0 /* Build configuration list for PBXNativeTarget "Pods-YaoWangUITests" */;
+			buildPhases = (
+				C1353C1EF27E7AD53686B4B493B03FED /* Headers */,
+				DCE20FC3DE739B4A225199D45C05DEEF /* Sources */,
+				1EC4A5D327D09B9BB808ECF8ECD01577 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE69FC13EF67E4E964D7CECA6FE325E1 /* PBXTargetDependency */,
+				E2FF29D303F10F49D3B3A7C4E433638E /* PBXTargetDependency */,
+				577E94E4A8E4B8F90DA67D2B807454F5 /* PBXTargetDependency */,
+				EEE1EDEE35C572C17AB2B8B24D9ED356 /* PBXTargetDependency */,
+				BAD235BA71DF056D8A2A1F7C3DE6EBE3 /* PBXTargetDependency */,
+				146FFEFC9E798A66FBD9D4137499D31B /* PBXTargetDependency */,
+				ED6857BAD287D3FFDBEBC383CA49542C /* PBXTargetDependency */,
+				F7A2A0F3AB7DD08357B10200A33CE127 /* PBXTargetDependency */,
+				4D863806D7B471E3667FD537E4D70087 /* PBXTargetDependency */,
+				60DAD216DB5E8990345847E16111E4A6 /* PBXTargetDependency */,
+				56BBF7A71D400838B2D7264A0F0CEAEC /* PBXTargetDependency */,
+				3BB729FBEF44429F6629A0BA877CE7F2 /* PBXTargetDependency */,
+				68C8A1DEDDFB1E1970291C7197A414E0 /* PBXTargetDependency */,
+				7A4E8A14297B44B23E0E6BB34B0B70E9 /* PBXTargetDependency */,
+				947C3512DD57E8ECB00E8936C46CE535 /* PBXTargetDependency */,
+				C133B5FEAEBDE913C2C98C1E39BA5B4D /* PBXTargetDependency */,
+				FBA7769ED6E5879B9109B280281E59F9 /* PBXTargetDependency */,
+				8402DA40B6F60DCBBFE7F106CE25EEB7 /* PBXTargetDependency */,
+				D181D587C1FE63E24F7D4CDDDDD492DF /* PBXTargetDependency */,
+				E86F3F1C3561C8A909C077775A94F6E8 /* PBXTargetDependency */,
+				1C602F210F3D79C1407854E1428987F3 /* PBXTargetDependency */,
+				6757D30E718AACDA07184594BBF9E05B /* PBXTargetDependency */,
+				44509585BBADC7B1DA897F8BAB8DC553 /* PBXTargetDependency */,
+				92EDF29B98BAFDDC84BF3386C5D6CD05 /* PBXTargetDependency */,
+				C617D1CBCF5FD1D2958FA4A8354EA672 /* PBXTargetDependency */,
+				8707916772611AC565D6C0BD32B3248F /* PBXTargetDependency */,
+				8C1247682C65D2A48A0105A3B3138531 /* PBXTargetDependency */,
+				7AE370F57A6231DF5293D373BD0179B5 /* PBXTargetDependency */,
+				08881904E513E01245A49F82797E78E3 /* PBXTargetDependency */,
+				DCC0B823A03BF21D5EAF23299DF696A3 /* PBXTargetDependency */,
+				6B73F952D6AC380EFD066DDCFE5F99F7 /* PBXTargetDependency */,
+				00761735D74218429A3EEF9732E1CA16 /* PBXTargetDependency */,
+				AB6C03074C162229EE0EEDD03B286002 /* PBXTargetDependency */,
+				7A6B1E17A00B8415D3927635B5ECEC0B /* PBXTargetDependency */,
+				D90F767C8A97D23B35B2D37666637F56 /* PBXTargetDependency */,
+				C91309082F7EE487A53D746AE504C97A /* PBXTargetDependency */,
+				83EF4E2A28503FA42565E69A817ABAE6 /* PBXTargetDependency */,
+				CC81006E1970AFAFD89F0120551FC32F /* PBXTargetDependency */,
+				0B003C8A0AE22AD8B5F445A154DD2B45 /* PBXTargetDependency */,
+				9475590ABC01EC87F35AC183529D3707 /* PBXTargetDependency */,
+				44C17846C00DD94886B06FEF977047E1 /* PBXTargetDependency */,
+				888F3D1D8007DEFFC522E3372F6A2499 /* PBXTargetDependency */,
+				0E158ACB9DF55F9117F28FE3EAF99F65 /* PBXTargetDependency */,
+				42ED575C65D1B50474A37807388AD91A /* PBXTargetDependency */,
+				0788D7A968D16BFE16123368698DFBD5 /* PBXTargetDependency */,
+				DE01903AAA643A2358921F1DC72E7367 /* PBXTargetDependency */,
+				08631B3EA9B62DB612F409B49588CDFE /* PBXTargetDependency */,
+				C4662D5347758F49FD7A19A3B804951C /* PBXTargetDependency */,
+				48800A12EE419FABEBB84DE19F5AE96A /* PBXTargetDependency */,
+				1A4B0EA51B9E2C26F067CD3315BA24B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-YaoWangUITests";
+			productName = "Pods-YaoWangUITests";
+			productReference = DD81ACEE8920943707D18B5575DAE377 /* libPods-YaoWangUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6976B1968FE044134A057526FB246CCA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = C58D93D169969C032AEC0C41303CA94F /* AFNetworking */;
+				},
+				{
+					ProjectRef = 45753699E59799C2FCB7F5B5B5AB956C /* AliyunOSSiOS */;
+				},
+				{
+					ProjectRef = AF6F13EDE30B61E0D04FEA1E483D9A5A /* BGFMDB */;
+				},
+				{
+					ProjectRef = 770F81990AEBD406006EC0A42FF50BF9 /* BMKLocationKit */;
+				},
+				{
+					ProjectRef = EFAEF1B710FF640582C2BD4503BEC9AE /* BaiduMapKit */;
+				},
+				{
+					ProjectRef = 7C902162A7A99C8E3AE2A559052E49AD /* Bugly */;
+				},
+				{
+					ProjectRef = 25759B0662A135E2947C0036B4B9EFE7 /* Bytedance-UnionAD */;
+				},
+				{
+					ProjectRef = CC5C77A3655623D13B7D1294DC1BAC63 /* CHTCollectionViewWaterfallLayout */;
+				},
+				{
+					ProjectRef = 710200C3B580D77274E28C2C9499E277 /* CL_ShanYanSDK */;
+				},
+				{
+					ProjectRef = 534FCC38BE732BDE75246F231E66F2A7 /* CocoaAsyncSocket */;
+				},
+				{
+					ProjectRef = A2C75D4DB32892C3ADB15A5DDBC9B098 /* FDFullscreenPopGesture */;
+				},
+				{
+					ProjectRef = 40EFDCF942F48C2CEDFFB22615D7A935 /* IGListDiffKit */;
+				},
+				{
+					ProjectRef = 710C4F43F179730D91745DDD3EAC0888 /* IGListKit */;
+				},
+				{
+					ProjectRef = 6162FA1D19F7BCCC4AAFB0BE38B5951C /* JXTAlertManager */;
+				},
+				{
+					ProjectRef = 74D47556E35B3D63E8D582E5FE2F60B4 /* KTVCocoaHTTPServer */;
+				},
+				{
+					ProjectRef = 0CF3FDEC347A8C5FA1AA905A0566C466 /* KTVHTTPCache */;
+				},
+				{
+					ProjectRef = 9DDE578DF9A7B0E71744E0C1F822786A /* KVOController */;
+				},
+				{
+					ProjectRef = E79E8114EC018FF471805472E8242458 /* LXMButtonImagePosition */;
+				},
+				{
+					ProjectRef = 9E153CC89DD656EB5E3B23C28F06B638 /* MBProgressHUD */;
+				},
+				{
+					ProjectRef = 37B53608C9FC913BB2B9D7251F9F6BAD /* MGSwipeTableCell */;
+				},
+				{
+					ProjectRef = 2941ED6FDC51B68227ECA71C1CBA79DE /* MJExtension */;
+				},
+				{
+					ProjectRef = E00C7E74014EA420539FD02614290108 /* MJRefresh */;
+				},
+				{
+					ProjectRef = FE93AC9B404DEDC4D86D1E2A1A290CF8 /* Masonry */;
+				},
+				{
+					ProjectRef = 9A2F466187DD34214B6280DA75581B74 /* NIMSDK_LITE */;
+				},
+				{
+					ProjectRef = 162D4976BF6802C76AAA6270CB9CCF87 /* ReactiveObjC */;
+				},
+				{
+					ProjectRef = AF767F699F4BC3BFBC9CB8E623EA62F6 /* SDWebImage */;
+				},
+				{
+					ProjectRef = 33D96AC315F25BD0277E74664E0FC96B /* SPAlertController */;
+				},
+				{
+					ProjectRef = 2E399F9F747525A644AB39D89CFEF9A1 /* SVProgressHUD */;
+				},
+				{
+					ProjectRef = 3F8F92C78D019A5472A6B1D3C2B41E32 /* SensorsAnalyticsSDK */;
+				},
+				{
+					ProjectRef = B233CC7A88065E1D8AF710072EA338F9 /* TABAnimated */;
+				},
+				{
+					ProjectRef = AA1B7136B25FEFAC42602920861AA64F /* TZImagePickerController */;
+				},
+				{
+					ProjectRef = C7B009026AE3160FA79FD9FBCAC935B5 /* UICollectionViewLeftAlignedLayout */;
+				},
+				{
+					ProjectRef = 4C7D421BADA21ABDC6D70794CC06F954 /* UICountingLabel */;
+				},
+				{
+					ProjectRef = 805DA97099C69B564DB6B870D85E79A2 /* UITextView+Placeholder */;
+				},
+				{
+					ProjectRef = E1EB5B25AD2B6B9DFF6BDCAF0023D239 /* UMCSecurityPlugins */;
+				},
+				{
+					ProjectRef = 76E16CC35E97100202A3403405B485A2 /* UMCommon */;
+				},
+				{
+					ProjectRef = CDB52E5DF359FF2790585C805BA2E9D9 /* UMDevice */;
+				},
+				{
+					ProjectRef = 45B61FC262DA18FDDB74EAD4EB8556FF /* UMPush */;
+				},
+				{
+					ProjectRef = 397CC990BBA59D806CEF1E1C2E8965CC /* UMShare */;
+				},
+				{
+					ProjectRef = A96BB6CBC7C7CDF5754D6794F15F1774 /* VODUpload */;
+				},
+				{
+					ProjectRef = FD3179EA34A0E235DA58402195734B29 /* WZLBadge */;
+				},
+				{
+					ProjectRef = 0C0F5FEDABD3ED3D98448F19BBC30C85 /* YBImageBrowser */;
+				},
+				{
+					ProjectRef = DEFF6DF7BD3BBF26CB99FDB621F2743B /* YYCache */;
+				},
+				{
+					ProjectRef = 3FC99743CA5A1DD5705CC650CFE1B68D /* YYImage */;
+				},
+				{
+					ProjectRef = 8BB15D4CF6F2755ADDE66194A8D69F63 /* YYKeyboardManager */;
+				},
+				{
+					ProjectRef = 13121BBBDE646E8CFC916D86A1F6427C /* YYModel */;
+				},
+				{
+					ProjectRef = C2C62BB808599604719F38AC73B0B6D8 /* YYText */;
+				},
+				{
+					ProjectRef = C18994CAB956EA870954E02F07B75EE5 /* YYWebImage */;
+				},
+				{
+					ProjectRef = 2FF3CC684B42087B3DE2AEDD98AE1482 /* libOpenInstallSDK */;
+				},
+				{
+					ProjectRef = B8E2157B0BB492AE431DC4E7E171806C /* lottie-ios */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4DB47D4B4EE6065FA227A030655AA831 /* Pods-YaoWang */,
+				07719BFA45A803A481884441DBD4D131 /* Pods-YaoWangTests */,
+				F55183FDEED1FDC1BC17EB8D83FC0319 /* Pods-YaoWangUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		803FFF712B0F368A25C49F6B56A4B104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AF3420BF3180CC20555D6228C0776C /* Pods-YaoWang-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE16CDC0245304FB7C24691DA254DDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463CEC710D3D49F2CBD00F969C2020CD /* Pods-YaoWangTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE20FC3DE739B4A225199D45C05DEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				295380F720450CF88C28122999854DC9 /* Pods-YaoWangUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00761735D74218429A3EEF9732E1CA16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICollectionViewLeftAlignedLayout;
+			targetProxy = 4235316C7743C5E1DDC5CAD1B598FCAF /* PBXContainerItemProxy */;
+		};
+		00F7AFBD892418400C3BB04413237E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			targetProxy = BE644D31B9F149E2861C2B69B685E8E2 /* PBXContainerItemProxy */;
+		};
+		0123172B7FEAD219E8E2F59ACD791654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPAlertController;
+			targetProxy = 8634F6D689B56F88C58975F0B831F8BC /* PBXContainerItemProxy */;
+		};
+		01E6C0555E4F7C4BF1760AA9D50F992C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXTAlertManager;
+			targetProxy = 3F5461B050C619FBA8EAAC2BFE4CC8E0 /* PBXContainerItemProxy */;
+		};
+		073E7C8356967AF998087D817664573A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTVHTTPCache;
+			targetProxy = 5164C0D65DD8FE342372A718E03E57A6 /* PBXContainerItemProxy */;
+		};
+		0788D7A968D16BFE16123368698DFBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYKeyboardManager;
+			targetProxy = 7EF5BF4AB62132E4346598422A26871C /* PBXContainerItemProxy */;
+		};
+		08631B3EA9B62DB612F409B49588CDFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYText;
+			targetProxy = E8552557DBA51BA8D99469F1151821B0 /* PBXContainerItemProxy */;
+		};
+		08881904E513E01245A49F82797E78E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SensorsAnalyticsSDK;
+			targetProxy = 7F4E5B2D613F2F9E32F74C3FD41FC5B7 /* PBXContainerItemProxy */;
+		};
+		0920247015BC67EF56C9E578AC1A99A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXTAlertManager;
+			targetProxy = 34D9DBACF4BB8EF4E0BDB6BB1FDEDBF5 /* PBXContainerItemProxy */;
+		};
+		0B003C8A0AE22AD8B5F445A154DD2B45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMShare;
+			targetProxy = 95F6A16BFD02D6E8012D2201882FFFF2 /* PBXContainerItemProxy */;
+		};
+		0E158ACB9DF55F9117F28FE3EAF99F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			targetProxy = 01CA890B9E341CEF990C2D40D469F258 /* PBXContainerItemProxy */;
+		};
+		0FC674857E0FDD8F707C69E0F6A4B2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bugly;
+			targetProxy = 7065C9D56F52764E1D4269FE6A0BCA24 /* PBXContainerItemProxy */;
+		};
+		146FFEFC9E798A66FBD9D4137499D31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bugly;
+			targetProxy = 058F8ED81FCDEB1E13382F6DF5E7A165 /* PBXContainerItemProxy */;
+		};
+		1755B2EF74C0927CB0B5E73952ECC1C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TABAnimated;
+			targetProxy = EBDCC8D992048B50DA1E14CA8B1AC476 /* PBXContainerItemProxy */;
+		};
+		19206402023B28AED12F93A334339B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bugly;
+			targetProxy = 07129E299066369FD6934CBDE5099BEE /* PBXContainerItemProxy */;
+		};
+		1A4B0EA51B9E2C26F067CD3315BA24B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			targetProxy = BE5D853B18E0F3EC9AAFCEF02615CE25 /* PBXContainerItemProxy */;
+		};
+		1BB93C86B4DEB3F55F6E7FA76BC4AD78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			targetProxy = 7D5F9EC5D194D9F53FC3047C65C56AA5 /* PBXContainerItemProxy */;
+		};
+		1C602F210F3D79C1407854E1428987F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			targetProxy = CFBB86D63B2A4462FCE270050F2F4EBB /* PBXContainerItemProxy */;
+		};
+		1E5FC5C7BEDED05C88C78B5FA6D39EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			targetProxy = 610A3B3C1C5DE058CF3D1FEB591E4463 /* PBXContainerItemProxy */;
+		};
+		1EEC97FC461CE38F587EAF31B93AD6CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = 9D61E00BD0D4B7F7C1974CADDE770281 /* PBXContainerItemProxy */;
+		};
+		2085C751F48F6F076A95CCDA35499E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VODUpload;
+			targetProxy = 888B69A5DFBE7A3AF1714CD7310FDB92 /* PBXContainerItemProxy */;
+		};
+		21D3DDD5DFDA4391EAC30E58EB833D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			targetProxy = 6B92581D3196BD90BA791E4EA1A82598 /* PBXContainerItemProxy */;
+		};
+		24A01DFF1583C4894B16680A30E7833A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYImage;
+			targetProxy = 243E06BC746E0762E0D3DBF87F20A64D /* PBXContainerItemProxy */;
+		};
+		260F1DA0F75935FF7B7043F6B12653D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			targetProxy = 95F91E2A9491E9BF8982504AD327111D /* PBXContainerItemProxy */;
+		};
+		27EF02AE41FF9290DE2BCBBF5DA938E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			targetProxy = 3B3294EAF83E6D1CB176233E550DF7B7 /* PBXContainerItemProxy */;
+		};
+		2A9993423FA684110914A24C4F9F7D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libOpenInstallSDK;
+			targetProxy = 4556466BCE6A02F7D64E8BE6B5C5CE00 /* PBXContainerItemProxy */;
+		};
+		2AE8A9C5DE63D62A6DBC13597B05AE57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bytedance-UnionAD";
+			targetProxy = 4DCE36211FF0F9B50833A20FA9E18F66 /* PBXContainerItemProxy */;
+		};
+		30FDDBA79148A528C70098F0CEBE1B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			targetProxy = 6D59A5692A09C015C5EEB493CDA064E9 /* PBXContainerItemProxy */;
+		};
+		34B77CFC9E160D9D74767E4C4E65D54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SensorsAnalyticsSDK;
+			targetProxy = 5CC8B649D9D62D6F79AFD8F492BCCE44 /* PBXContainerItemProxy */;
+		};
+		3AF7CF55347A8ED930CD0F96F59C3669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListKit;
+			targetProxy = 0E2EC6A22CCDF5C43EFFD56E193CB224 /* PBXContainerItemProxy */;
+		};
+		3BB729FBEF44429F6629A0BA877CE7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListDiffKit;
+			targetProxy = 05707073D00722E07E25D1FB3F607301 /* PBXContainerItemProxy */;
+		};
+		3C7AA0060AC21DE32AF69721F8E13EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCommon;
+			targetProxy = 34D1978F41139696C89B54BD2FAB7F8F /* PBXContainerItemProxy */;
+		};
+		3F9ADB590A51703F5EF6436E014A9E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIMSDK_LITE;
+			targetProxy = 15CBD78A53532BA22CBD038CC4B35394 /* PBXContainerItemProxy */;
+		};
+		403FF1AAEC7B827417D4B1C75724984D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			targetProxy = F65A5CC8C39C9862E1BDA30D73B39ACA /* PBXContainerItemProxy */;
+		};
+		42ED575C65D1B50474A37807388AD91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYImage;
+			targetProxy = 85C8DD86438556AE073FD50E5BE172DE /* PBXContainerItemProxy */;
+		};
+		431263548B393AC67B766E513E97EE7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			targetProxy = D7859CFEB80422550D1FBABBA91E3C0C /* PBXContainerItemProxy */;
+		};
+		43A681B0338BADCD9900FD83DB44702C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYText;
+			targetProxy = D21799606EEBCC49CD93E26C7911C0EA /* PBXContainerItemProxy */;
+		};
+		4439C8E29E0A5251811186C100E72D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICountingLabel;
+			targetProxy = 29A379AD574B6C575EDDEADC5A16B59C /* PBXContainerItemProxy */;
+		};
+		44509585BBADC7B1DA897F8BAB8DC553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			targetProxy = 5CE1A4BACFC62111329F3A0D3A68FE34 /* PBXContainerItemProxy */;
+		};
+		44C17846C00DD94886B06FEF977047E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WZLBadge;
+			targetProxy = 7E7C4AC11F2202BA0F1B7B617C390802 /* PBXContainerItemProxy */;
+		};
+		451DDA9844B73BE7FC45A32335794E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			targetProxy = BEE785F4C585F6BD320395C1742FE02E /* PBXContainerItemProxy */;
+		};
+		48800A12EE419FABEBB84DE19F5AE96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libOpenInstallSDK;
+			targetProxy = 85501539697ABA1F5F8F8D255B3155C7 /* PBXContainerItemProxy */;
+		};
+		4944B743B18927FBB8C6955CB65839B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			targetProxy = D203C5DA9D198C394BC92C93D0BD44A8 /* PBXContainerItemProxy */;
+		};
+		4B9A4908E423462BEEB67DE1E3BBB02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMapKit;
+			targetProxy = CB35BD28220C65AF7FE30F10EC31CA71 /* PBXContainerItemProxy */;
+		};
+		4D863806D7B471E3667FD537E4D70087 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CL_ShanYanSDK;
+			targetProxy = 2C4267B2A2430864571398F1323398B9 /* PBXContainerItemProxy */;
+		};
+		5073AF4067B83AF38857A78DABA9FE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTVCocoaHTTPServer;
+			targetProxy = 9D2FE34E26477AF7271064CFE4FC2692 /* PBXContainerItemProxy */;
+		};
+		507868DBE3574709396F7D6CE16473F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMKLocationKit;
+			targetProxy = 7D0D765A4B6EEF5199F0829894890780 /* PBXContainerItemProxy */;
+		};
+		509B27715BD5478FD6FDABF94A132026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			targetProxy = B4C947430C135560E1495BA3BB82C30E /* PBXContainerItemProxy */;
+		};
+		53476C1BD55FF7EE617E2286E37C56FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMDevice;
+			targetProxy = DF483A66FCF2F07E06CC7483528AD61F /* PBXContainerItemProxy */;
+		};
+		545E7DCDAA77CC9E34C93D4AC62FFAA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYKeyboardManager;
+			targetProxy = 569130AD15578175B6E433A2CB114868 /* PBXContainerItemProxy */;
+		};
+		56BBF7A71D400838B2D7264A0F0CEAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			targetProxy = 19AE43B71D830C7611B86FB56084079F /* PBXContainerItemProxy */;
+		};
+		56E898B2CABA5010FCD85EE2CB5EFF17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMKLocationKit;
+			targetProxy = 5844678443FE830A2082DA7F331FF969 /* PBXContainerItemProxy */;
+		};
+		577E94E4A8E4B8F90DA67D2B807454F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BGFMDB;
+			targetProxy = 4940626683075259759A3455709F338F /* PBXContainerItemProxy */;
+		};
+		5876103545BE93267A0C355346FB0935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BGFMDB;
+			targetProxy = B07DAE1C5EAAE5A38EDEABB51E7F7B29 /* PBXContainerItemProxy */;
+		};
+		59561521ABFF24A7D44602D3EED54AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTVHTTPCache;
+			targetProxy = E84A39708DCEFE2C375B6789923570A6 /* PBXContainerItemProxy */;
+		};
+		5D015ABA5B4BD3DFAD2543E250F46E12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCommon;
+			targetProxy = 282745790C8805CF63010D8C5DB12A10 /* PBXContainerItemProxy */;
+		};
+		60DAD216DB5E8990345847E16111E4A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			targetProxy = 57F169B63A2A9F160DB82A75D7D21A2B /* PBXContainerItemProxy */;
+		};
+		61712C3D9CA5B58D1D0539CF6B204BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			targetProxy = 85E39442DA4998780C43DD2943395DC6 /* PBXContainerItemProxy */;
+		};
+		626948B9FF3155C26A20DB20176FA2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYImage;
+			targetProxy = ABB181AE60F740A76FAB0AD221BF3501 /* PBXContainerItemProxy */;
+		};
+		62A3239AA0EDF11661FC9BE77AED9465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListDiffKit;
+			targetProxy = 08A9B3BF676FC30556777F27C7113A30 /* PBXContainerItemProxy */;
+		};
+		6757D30E718AACDA07184594BBF9E05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			targetProxy = E617DAF672E56627A89C32B3F8E606DE /* PBXContainerItemProxy */;
+		};
+		68C8A1DEDDFB1E1970291C7197A414E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListKit;
+			targetProxy = 2505CF76F22D87D557057DC0159C3B1C /* PBXContainerItemProxy */;
+		};
+		68DD6830B3C36A2A7F05B88819E05D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMShare;
+			targetProxy = 689F8BC66457D741F91B28490E14A270 /* PBXContainerItemProxy */;
+		};
+		698270C65D55F9828474AF04B81C5E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YBImageBrowser;
+			targetProxy = 484AFC3FEBC16C575664A1F1F0826353 /* PBXContainerItemProxy */;
+		};
+		69E8F8BC7FA721C25FA2649BAEDD62D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			targetProxy = 37B7577E96B11E9CAB0B4BDC4F84F294 /* PBXContainerItemProxy */;
+		};
+		6B73F952D6AC380EFD066DDCFE5F99F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TZImagePickerController;
+			targetProxy = DCA5489F101DE4A1ED4A5BFE950DD29E /* PBXContainerItemProxy */;
+		};
+		71E92EC5E37E64A47932A98F8922F790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			targetProxy = F6CFBA6EB68374A3E96AB6053DED9BA2 /* PBXContainerItemProxy */;
+		};
+		727FA180441EA71B618E1516360299EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYWebImage;
+			targetProxy = 392BF3B79B0934840BF391AC04DD5D42 /* PBXContainerItemProxy */;
+		};
+		728260FF7C4B3C43C839E6BA4E4D9142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			targetProxy = 120FD1E3D789BB8B63051D4874D355E5 /* PBXContainerItemProxy */;
+		};
+		76AA96B4E25C43D044806DFEBA87E8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WZLBadge;
+			targetProxy = B60EB4197621578A978BD823249F7A42 /* PBXContainerItemProxy */;
+		};
+		76EA95A2F032B53886029453C3F6F69E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXMButtonImagePosition;
+			targetProxy = DB5A76FFB12DA467130852DD29117919 /* PBXContainerItemProxy */;
+		};
+		79366E5D8EA1BFFBC5A36BCE22DD73E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			targetProxy = 1CA74E5A2824428AF1E6FF4BCCF9BE8B /* PBXContainerItemProxy */;
+		};
+		7A4E8A14297B44B23E0E6BB34B0B70E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXTAlertManager;
+			targetProxy = B18FC89B9D658C78C7A58EF4844DD582 /* PBXContainerItemProxy */;
+		};
+		7A6B1E17A00B8415D3927635B5ECEC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			targetProxy = 31F86D75AD93E02619C711328BC7F53A /* PBXContainerItemProxy */;
+		};
+		7AE370F57A6231DF5293D373BD0179B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			targetProxy = 3B134050E078A64540504478662388D6 /* PBXContainerItemProxy */;
+		};
+		7B4B05746B4B34B14ABF4054D70268CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMPush;
+			targetProxy = BC340AC9AE806C8FAE4626999DDC62CF /* PBXContainerItemProxy */;
+		};
+		7BADEB6A09F54A0B33653ACFF7296DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TABAnimated;
+			targetProxy = 9F208E24B8C15847E478A85BC29C0CBA /* PBXContainerItemProxy */;
+		};
+		7E7215FD602D0B053598D57999F8B046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YBImageBrowser;
+			targetProxy = FC9512224CB608918136377A85C65EE1 /* PBXContainerItemProxy */;
+		};
+		8073D08D81D124F41F55925680C15F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			targetProxy = CFA0A43F621264BB9D18EA7FA9F53BEF /* PBXContainerItemProxy */;
+		};
+		81A200B7A603B7F4AB2E8F2216058E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CL_ShanYanSDK;
+			targetProxy = 3AB2D5728D39C5B041850DA01DC3800D /* PBXContainerItemProxy */;
+		};
+		834F50E7CBD2345BBA2E1EAD784E1CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			targetProxy = 555FC362370D103A48EC83105695C874 /* PBXContainerItemProxy */;
+		};
+		83EF4E2A28503FA42565E69A817ABAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMDevice;
+			targetProxy = C60071C0ECA037EA6438D3FFE8410CA2 /* PBXContainerItemProxy */;
+		};
+		8402DA40B6F60DCBBFE7F106CE25EEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXMButtonImagePosition;
+			targetProxy = 03DB70AFA6FAA91573A4D63C1384558F /* PBXContainerItemProxy */;
+		};
+		8469936AF05FA282D92C17DD0A526D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYText;
+			targetProxy = 4ED82ED92B9D86A2EDF1CFC87E364809 /* PBXContainerItemProxy */;
+		};
+		84F2F79047519D4449EE8FAE7807A45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYKeyboardManager;
+			targetProxy = ED2D4EDD434E8BC03149436A0532509A /* PBXContainerItemProxy */;
+		};
+		8707916772611AC565D6C0BD32B3248F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = 24829E3D05BDF3EE2967BFA7BEDED305 /* PBXContainerItemProxy */;
+		};
+		87738DC645E71222FDE2D09DC76AC0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIMSDK_LITE;
+			targetProxy = 8803A3AFD878D224B004ECC60B0F1625 /* PBXContainerItemProxy */;
+		};
+		8775191D2969B36916989051C7D52B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			targetProxy = 1A2CE06C06330736AB3AC703CC85D0A6 /* PBXContainerItemProxy */;
+		};
+		888F3D1D8007DEFFC522E3372F6A2499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YBImageBrowser;
+			targetProxy = 1CB1334218B361DE1CBFFEA6218900B0 /* PBXContainerItemProxy */;
+		};
+		88F1BFFE9003C211626F3E06D6EB7E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SensorsAnalyticsSDK;
+			targetProxy = 9E02D5C3A1FA526675ABCA811075A83D /* PBXContainerItemProxy */;
+		};
+		8C1247682C65D2A48A0105A3B3138531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPAlertController;
+			targetProxy = BED831C1B3B0D7D6F4EF2554667EE67E /* PBXContainerItemProxy */;
+		};
+		8D66E741AE328C3DDCE5664998F057A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BGFMDB;
+			targetProxy = 1F4B3445BFAC8C9787EA0B6525CFB468 /* PBXContainerItemProxy */;
+		};
+		92EDF29B98BAFDDC84BF3386C5D6CD05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIMSDK_LITE;
+			targetProxy = AD655FAC78877B8B1F737F21F0113163 /* PBXContainerItemProxy */;
+		};
+		93E09F06F694472F9A40C7BECB1F585B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bytedance-UnionAD";
+			targetProxy = FE98AB87A42C8762E262B2C8980C80D8 /* PBXContainerItemProxy */;
+		};
+		9475590ABC01EC87F35AC183529D3707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VODUpload;
+			targetProxy = 55772B6270C001743D9BF752A517FE15 /* PBXContainerItemProxy */;
+		};
+		947C3512DD57E8ECB00E8936C46CE535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTVCocoaHTTPServer;
+			targetProxy = FCF392EEA70F93FD9BF067FB24455715 /* PBXContainerItemProxy */;
+		};
+		94D7835714F5670986773B8F54BB0026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TZImagePickerController;
+			targetProxy = 2E9B5691DFBECB7B5E3C0749E7523A30 /* PBXContainerItemProxy */;
+		};
+		98BEFF8BF7EC0F599BAFCB13197576B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CL_ShanYanSDK;
+			targetProxy = FEB254A9285A38DE00BDF89634D0EF1F /* PBXContainerItemProxy */;
+		};
+		9DEA497885EE6454C3874EE7C81282A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMShare;
+			targetProxy = 78B3EB2C7375EE655FDAB51CE8FB3041 /* PBXContainerItemProxy */;
+		};
+		A4652D90827C5B12633E2BED48C9C45F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TZImagePickerController;
+			targetProxy = 73BC2AF830E327BAD6B9FC36AD164026 /* PBXContainerItemProxy */;
+		};
+		A5B1F21482D550A0C81637F9FF19E665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			targetProxy = F861CF2BDDB4D0D45F09F3AC4949F634 /* PBXContainerItemProxy */;
+		};
+		A7220246D56966D21B0807028FE18889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VODUpload;
+			targetProxy = EBA2E66FC7C0F154249B71DA396E140D /* PBXContainerItemProxy */;
+		};
+		A80EC65A64A1F8FBDDBB362234804F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCSecurityPlugins;
+			targetProxy = 880D0AADE5A7B26F1A82259EC0A122B8 /* PBXContainerItemProxy */;
+		};
+		A823B17903BAF99D052D29D59BADCE50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunOSSiOS;
+			targetProxy = EEF9026AABC0D01C06AE7847AB85ACA3 /* PBXContainerItemProxy */;
+		};
+		AA1B0F5BD2595F27B5FA102A750C10E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			targetProxy = B0702501D27851B1227752B56BA6AEB8 /* PBXContainerItemProxy */;
+		};
+		AA6739BD78DA44A9C1E689DB42B25E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICollectionViewLeftAlignedLayout;
+			targetProxy = 890C5942333404AC72CF021A2F8C45E2 /* PBXContainerItemProxy */;
+		};
+		AB6C03074C162229EE0EEDD03B286002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICountingLabel;
+			targetProxy = 52640F0188444279EDB1DCEA217D8445 /* PBXContainerItemProxy */;
+		};
+		AC6D98E563FBC96C98ACB592CE4B668D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WZLBadge;
+			targetProxy = 96B3BB4BF33E21F977E1858F1F9A4FC8 /* PBXContainerItemProxy */;
+		};
+		B06A4FF9F4D181CABF32C46874C74591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveObjC;
+			targetProxy = 2CE086322503647A93501D67B205A8A2 /* PBXContainerItemProxy */;
+		};
+		B3EC6305DC78E6D1752122E65F93C711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICollectionViewLeftAlignedLayout;
+			targetProxy = ED67973EC565215AA1D663F41B4F859A /* PBXContainerItemProxy */;
+		};
+		BAD235BA71DF056D8A2A1F7C3DE6EBE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMapKit;
+			targetProxy = AB9E42BD6CF1F902FAD054E1A5220424 /* PBXContainerItemProxy */;
+		};
+		BAD6CB6C4830CB717E4480A2561DCAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCSecurityPlugins;
+			targetProxy = 8C68FF4040B244FA511004361B31DEF8 /* PBXContainerItemProxy */;
+		};
+		BD28DC6D205D0ADFEDA0A96BF487254E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = ECF7B8A95B30B8A77A04378AF7A3E120 /* PBXContainerItemProxy */;
+		};
+		C133B5FEAEBDE913C2C98C1E39BA5B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTVHTTPCache;
+			targetProxy = 2FF050DB4F0C3AA97776256841120F90 /* PBXContainerItemProxy */;
+		};
+		C15CB6B84F22F1BF84ECFD10A677211B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXMButtonImagePosition;
+			targetProxy = CABF8BB5243AE0E7240816705B514A80 /* PBXContainerItemProxy */;
+		};
+		C4662D5347758F49FD7A19A3B804951C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYWebImage;
+			targetProxy = 6D125C5F1B148221D75E673F8093E4BF /* PBXContainerItemProxy */;
+		};
+		C617D1CBCF5FD1D2958FA4A8354EA672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveObjC;
+			targetProxy = 57105D56D627B604C61FE05100C64B1C /* PBXContainerItemProxy */;
+		};
+		C62540CF793FD6EA8746915CFE93F773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			targetProxy = 606F2CE24AB41FC367C5B9DCBFF709EA /* PBXContainerItemProxy */;
+		};
+		C704E97ED2314C3A36807C4623AA8D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListDiffKit;
+			targetProxy = C5D2DFB713A00691AEFD09DC952E1539 /* PBXContainerItemProxy */;
+		};
+		C76B364D09920E284F0AFA83188DB4E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			targetProxy = 28E90AA83F3D4F0B0C22D91251EF66AD /* PBXContainerItemProxy */;
+		};
+		C8FBCFEA54CA5C894D78A9910E68E219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReactiveObjC;
+			targetProxy = 0C119079CBFD77CA51148D89AD94CA55 /* PBXContainerItemProxy */;
+		};
+		C91309082F7EE487A53D746AE504C97A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCommon;
+			targetProxy = C29359F9D4A2B7ED28C6B93556779E03 /* PBXContainerItemProxy */;
+		};
+		C927E5F3909FBEDA238BD1C0E8FAC822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMPush;
+			targetProxy = EFCA841941549347628B7C970AE70FB0 /* PBXContainerItemProxy */;
+		};
+		C97A0E1854606DF60AE763412407FD9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMDevice;
+			targetProxy = 516FE366D06CC72874A9BDAF13905C19 /* PBXContainerItemProxy */;
+		};
+		CC4504DED0F3C6C17ECA33906514E389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			targetProxy = F716D6407B7F2C563E3C729A1130722D /* PBXContainerItemProxy */;
+		};
+		CC81006E1970AFAFD89F0120551FC32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMPush;
+			targetProxy = 1C420A2E1CF880D07B21683E413B9D7D /* PBXContainerItemProxy */;
+		};
+		CE69FC13EF67E4E964D7CECA6FE325E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = 0DCC357AC1A6C0A9322968B762B9694F /* PBXContainerItemProxy */;
+		};
+		CF5963966305D8ACDCA3E35DEBC8CCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KTVCocoaHTTPServer;
+			targetProxy = EB67766E3C371A2EDDFFF114B47BCC37 /* PBXContainerItemProxy */;
+		};
+		D181D587C1FE63E24F7D4CDDDDD492DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			targetProxy = C59D0A56C5882ABD026478C3BFC6D748 /* PBXContainerItemProxy */;
+		};
+		D20BF37C9FF47CA4337F9F511E430322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMapKit;
+			targetProxy = BD31A57A7074EA7A69E10E6D57730445 /* PBXContainerItemProxy */;
+		};
+		D237327398D88945623AB267D28F2A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libOpenInstallSDK;
+			targetProxy = 88DDBAD8AEF22454E5F7C9E4466EEA46 /* PBXContainerItemProxy */;
+		};
+		D3B95DBC9040944E48EEC4996DA8473E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGListKit;
+			targetProxy = FD553C99641FE4F7F776A6BDBAF80CF7 /* PBXContainerItemProxy */;
+		};
+		D7A6657EC4B1AD2416108479E8922A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPAlertController;
+			targetProxy = 71305D1115CC54CC24857B4795AC935B /* PBXContainerItemProxy */;
+		};
+		D90F767C8A97D23B35B2D37666637F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCSecurityPlugins;
+			targetProxy = 42FD1CE957443DF463B0D8C8E30E62F2 /* PBXContainerItemProxy */;
+		};
+		D9B5239061EB5823A133ADE20FBD228C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICountingLabel;
+			targetProxy = 16BBEA63D04DCC7EA0F609BABF90B394 /* PBXContainerItemProxy */;
+		};
+		DC3D1BFD270F179C01A11A1BCDAC0C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = 3BDC8841A4802FE50C903D4F1940A906 /* PBXContainerItemProxy */;
+		};
+		DCC0B823A03BF21D5EAF23299DF696A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TABAnimated;
+			targetProxy = 37C9D3F1AF9CAD516B5C8100CAEF7993 /* PBXContainerItemProxy */;
+		};
+		DDCA46BB83011054F443B9AAC636AB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			targetProxy = 8BE967F4B09FEBFCDD3E706459F9EC6D /* PBXContainerItemProxy */;
+		};
+		DE01903AAA643A2358921F1DC72E7367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			targetProxy = 93539ADF725492398AE10347FC02A992 /* PBXContainerItemProxy */;
+		};
+		E221A24E4DB789662C06A01A2E73F757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			targetProxy = 86A63E3513DA10E4B9D1191263105D39 /* PBXContainerItemProxy */;
+		};
+		E2FF29D303F10F49D3B3A7C4E433638E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunOSSiOS;
+			targetProxy = B664309D057F382E17CBA3588D92BC25 /* PBXContainerItemProxy */;
+		};
+		E4D217AB4D4A2F1B7B38C405FFE9EB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYWebImage;
+			targetProxy = 9CBDCAFF7EA6EA0CBB17BB0BDA6514D5 /* PBXContainerItemProxy */;
+		};
+		E86F3F1C3561C8A909C077775A94F6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			targetProxy = 2457E197DCAE7BE336E427113BE17807 /* PBXContainerItemProxy */;
+		};
+		E974DC0A3A932240948087CCD55F6858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunOSSiOS;
+			targetProxy = 77ABC47A0396195DFDADF7C6E186FD63 /* PBXContainerItemProxy */;
+		};
+		EC986D20DB749891E32CF403F79ACD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			targetProxy = E463507895CE733580ED6316DAB2BE5A /* PBXContainerItemProxy */;
+		};
+		ED6857BAD287D3FFDBEBC383CA49542C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bytedance-UnionAD";
+			targetProxy = 4C01C53291EB5B6C12E80C81CFF45591 /* PBXContainerItemProxy */;
+		};
+		EEE1EDEE35C572C17AB2B8B24D9ED356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMKLocationKit;
+			targetProxy = 2D35C1DBD151211729860E48AD67E530 /* PBXContainerItemProxy */;
+		};
+		F7A2A0F3AB7DD08357B10200A33CE127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			targetProxy = 126DDEA0637DCB57CCBB9A7FCD4973CB /* PBXContainerItemProxy */;
+		};
+		FBA7769ED6E5879B9109B280281E59F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			targetProxy = D0BFCCBBE3FF461B9F8DBF42EE874ABB /* PBXContainerItemProxy */;
+		};
+		FE1318CBE07FE1016D8D31A2E5F6D9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			targetProxy = 426AB69524BF79AE980ED1B3D1B5AE90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30FCB81089ADDF47BE3F652E013B8769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0552515A32D6AF7F9C6F398C47CDB7D /* Pods-YaoWangTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541C035C4900CF4348D31645153BE911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5861563AE5181216BC039F6D7E62FEFA /* Pods-YaoWangUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83D9ED74CF30413B0735228FD2D50C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855370D4D7BC97438D88CF6B591FEB65 /* Pods-YaoWangTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95A35D1BD33C3E27B85FFC3BC5AE4953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38960CCA921A04A408C8A223ABFC29C3 /* Pods-YaoWang.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D00E4370F6BE0C7D572658C13D66C34A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B24C32A4485116EDEE9A2FEE5CD3963 /* Pods-YaoWangUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4393072BACB4C6252BC048677947C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BDF2C5223AF4402A3836B76FF0161C /* Pods-YaoWang.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1533B1E527F9A401C8399CA567951CF0 /* Build configuration list for PBXNativeTarget "Pods-YaoWangUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541C035C4900CF4348D31645153BE911 /* Debug */,
+				D00E4370F6BE0C7D572658C13D66C34A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802B23C6786D39BEFD60444369E4CC8F /* Build configuration list for PBXNativeTarget "Pods-YaoWang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4393072BACB4C6252BC048677947C51 /* Debug */,
+				95A35D1BD33C3E27B85FFC3BC5AE4953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9ADA5BD7E9542B5CCEAFB476D866C20 /* Build configuration list for PBXNativeTarget "Pods-YaoWangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D9ED74CF30413B0735228FD2D50C38 /* Debug */,
+				30FCB81089ADDF47BE3F652E013B8769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

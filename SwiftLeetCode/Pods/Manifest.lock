@@ -1,0 +1,273 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.10.8)
+  - BaiduMapKit (5.4.0)
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - BMKLocationKit (2.0.0)
+  - Bugly (2.5.71)
+  - Bytedance-UnionAD (3.3.6.2)
+  - CHTCollectionViewWaterfallLayout (0.9.8):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.8)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.8)
+  - CL_ShanYanSDK (2.3.3.5)
+  - CocoaAsyncSocket (7.6.4)
+  - FDFullscreenPopGesture (1.1)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - JXTAlertManager (1.0.2)
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (2.0.1):
+    - KTVCocoaHTTPServer
+  - KVOController (1.2.0)
+  - libOpenInstallSDK (2.5.0)
+  - lottie-ios (2.5.3)
+  - LXMButtonImagePosition (1.2.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MGSwipeTableCell (1.6.11)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.5.0)
+  - NIMSDK_LITE (7.8.5)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.0.0):
+    - SDWebImage/Core (= 5.0.0)
+  - SDWebImage/Core (5.0.0)
+  - SensorsAnalyticsSDK (2.2.8):
+    - SensorsAnalyticsSDK/Core (= 2.2.8)
+  - SensorsAnalyticsSDK/Core (2.2.8)
+  - SPAlertController (4.0.0)
+  - SVProgressHUD (2.2.5)
+  - TABAnimated (2.4.9)
+  - TZImagePickerController (3.4.2)
+  - UICollectionViewLeftAlignedLayout (1.0.2)
+  - UICountingLabel (1.4.1)
+  - "UITextView+Placeholder (1.3.3)"
+  - UMCommon (7.2.5):
+    - UMDevice
+  - UMCSecurityPlugins (1.0.6)
+  - UMDevice (1.1.0)
+  - UMPush (3.3.1):
+    - UMCommon
+  - UMShare/Core (6.10.2):
+    - UMCommon
+  - UMShare/Social/QQ (6.10.2):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedQQ
+  - UMShare/Social/ReducedQQ (6.10.2):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedSina (6.10.2):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedWeChat (6.10.2):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Sina (6.10.2):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedSina
+  - UMShare/Social/WeChat (6.10.2):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedWeChat
+  - VODUpload (1.6.1):
+    - AliyunOSSiOS
+  - WZLBadge (1.2.6)
+  - YBImageBrowser (3.0):
+    - YBImageBrowser/Core (= 3.0)
+  - YBImageBrowser/Core (3.0):
+    - SDWebImage (~> 5.0.0)
+    - YYImage
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYKeyboardManager (1.0.1)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - BaiduMapKit (~> 5.4.0)
+  - BGFMDB (~> 2.0.9)
+  - BMKLocationKit (= 2.0.0)
+  - Bugly (~> 2.5.71)
+  - Bytedance-UnionAD
+  - CHTCollectionViewWaterfallLayout (~> 0.9.8)
+  - CL_ShanYanSDK (~> 2.3.3.5)
+  - FDFullscreenPopGesture
+  - IGListKit
+  - JXTAlertManager
+  - KTVHTTPCache
+  - KVOController
+  - libOpenInstallSDK (~> 2.5.0)
+  - lottie-ios (~> 2.5.3)
+  - LXMButtonImagePosition
+  - Masonry
+  - MBProgressHUD
+  - MGSwipeTableCell
+  - MJExtension (~> 3.2.2)
+  - MJRefresh (~> 3.5.0)
+  - NIMSDK_LITE (~> 7.8.4)
+  - ReactiveObjC (~> 3.1.1)
+  - SDWebImage (= 5.0.0)
+  - SensorsAnalyticsSDK (~> 2.2.4)
+  - SPAlertController (~> 4.0.0)
+  - SVProgressHUD
+  - TABAnimated (~> 2.4.5)
+  - TZImagePickerController (= 3.4.2)
+  - UICollectionViewLeftAlignedLayout
+  - UICountingLabel
+  - "UITextView+Placeholder (= 1.3.3)"
+  - UMCommon
+  - UMCSecurityPlugins
+  - UMPush
+  - UMShare/Social/QQ
+  - UMShare/Social/Sina
+  - UMShare/Social/WeChat
+  - VODUpload (~> 1.6.1)
+  - WZLBadge
+  - YBImageBrowser (= 3.0)
+  - YYCache
+  - YYImage (from `localDependency/YYImage`)
+  - YYKeyboardManager
+  - YYModel
+  - YYText
+  - YYWebImage
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - BaiduMapKit
+    - BGFMDB
+    - BMKLocationKit
+    - Bugly
+    - Bytedance-UnionAD
+    - CHTCollectionViewWaterfallLayout
+    - CL_ShanYanSDK
+    - CocoaAsyncSocket
+    - FDFullscreenPopGesture
+    - IGListDiffKit
+    - IGListKit
+    - JXTAlertManager
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
+    - KVOController
+    - libOpenInstallSDK
+    - lottie-ios
+    - LXMButtonImagePosition
+    - Masonry
+    - MBProgressHUD
+    - MGSwipeTableCell
+    - MJExtension
+    - MJRefresh
+    - NIMSDK_LITE
+    - ReactiveObjC
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SPAlertController
+    - SVProgressHUD
+    - TABAnimated
+    - TZImagePickerController
+    - UICollectionViewLeftAlignedLayout
+    - UICountingLabel
+    - "UITextView+Placeholder"
+    - UMCommon
+    - UMCSecurityPlugins
+    - UMDevice
+    - UMPush
+    - UMShare
+    - VODUpload
+    - WZLBadge
+    - YBImageBrowser
+    - YYCache
+    - YYKeyboardManager
+    - YYModel
+    - YYText
+    - YYWebImage
+
+EXTERNAL SOURCES:
+  YYImage:
+    :path: localDependency/YYImage
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliyunOSSiOS: 8db92936545593b9e5c66d680ef2ac0738946651
+  BaiduMapKit: 40a4382633859bd569d40da9f9a2e98a277dd28b
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  BMKLocationKit: 097814ef672b1e57e86e6c1968d7892fb78002bf
+  Bugly: fd066c75c4a0eca1440f9b6a84bd37d51bfc85ac
+  Bytedance-UnionAD: e9f83939e2a5d857e104f6a91035bbf504b603e5
+  CHTCollectionViewWaterfallLayout: 5f241d2480ab4939aa0d1ad4981de9eef1fbe60d
+  CL_ShanYanSDK: e29b45fe16f33599263406011bbd27452c99cf3e
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  JXTAlertManager: 71a89e90ac1a6d72862fbe884eab513cb243a344
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: 588c3eb16f6bd1e6fde1e230dabfb7bd4e490a4d
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  libOpenInstallSDK: 961cda04b7a85a8bb2c134aa2f5372cf7dcd016d
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  LXMButtonImagePosition: 663e176be2c7e4ff99bcda808c364ebc3774af0f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  NIMSDK_LITE: 8e28ae0a26dd1dccc4684b697381f0a72a733f51
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
+  SensorsAnalyticsSDK: 40810809e6047f50b130ea07365b30877ca73d9e
+  SPAlertController: b245d7a5e17d612da051f2612aca3703f21d108f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TABAnimated: 0281b60fd1b0d31eb83618a1b89f0cafe88c11b6
+  TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
+  UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
+  UICountingLabel: faf890b505d96312e324a86718f031fafffb0ccb
+  "UITextView+Placeholder": c407b27599ea23cca425946fee3cf1db5d547008
+  UMCommon: b5aabdb9fad44330ff8738d9bc46ebf93db14bf2
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMDevice: 28d21a568c8e8322e5a03bbd53b138d0c098d3b3
+  UMPush: 7ef2ff2fcca16e4d5c7897183a78a0d26f920bfe
+  UMShare: ec11ef18fe90e7430466aced74fc305fe5e51618
+  VODUpload: 2c8ac654ceda839dda97a92023a270041dd9901e
+  WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+  YBImageBrowser: 95b6eb4e816181ee2e6fccc0ead35e2e7dc08be9
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 20ec986d18a8d0ad421619d166a9e628097e2433
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 5223ff752b91ae5d22074d423c143a8145f569bb
+
+COCOAPODS: 1.8.4

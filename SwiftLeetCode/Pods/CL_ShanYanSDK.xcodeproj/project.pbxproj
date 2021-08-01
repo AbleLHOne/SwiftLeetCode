@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7A884B903E470B6B45A5448D794E37B9 /* CL_ShanYanSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7BDD18036149994A4D29678AFF13A6B3 /* Build configuration list for PBXAggregateTarget "CL_ShanYanSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = CL_ShanYanSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		071EB8CD8414071BDD020690CF03297B /* TYRZUISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TYRZUISDK.framework; path = framework/TYRZUISDK.framework; sourceTree = "<group>"; };
+		0ED2C37FCA2D1E419CE146BB4FD36C6B /* OAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuth.framework; path = framework/OAuth.framework; sourceTree = "<group>"; };
+		5BDD06371B37FA2853B01ACE786F70C3 /* CL_ShanYanSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CL_ShanYanSDK.framework; path = framework/CL_ShanYanSDK.framework; sourceTree = "<group>"; };
+		6129B6666E9B1213A42C0959DB3AB93E /* CL_ShanYanSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CL_ShanYanSDK.xcconfig; sourceTree = "<group>"; };
+		672E0589AABAD4457FCFC18E9C3CE0E6 /* account_login_sdk_noui_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = account_login_sdk_noui_core.framework; path = framework/account_login_sdk_noui_core.framework; sourceTree = "<group>"; };
+		B094F71128E8B06CFAB274DDFAACD268 /* sdk_oauth.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = sdk_oauth.bundle; path = framework/sdk_oauth.bundle; sourceTree = "<group>"; };
+		E471728C8F4EB473514A1B1906A9A419 /* EAccountApiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EAccountApiSDK.framework; path = framework/EAccountApiSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B8350476C256835AD6DFCCE50711718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D71B0EE5529FDEA9D1522079E2B735D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672E0589AABAD4457FCFC18E9C3CE0E6 /* account_login_sdk_noui_core.framework */,
+				5BDD06371B37FA2853B01ACE786F70C3 /* CL_ShanYanSDK.framework */,
+				E471728C8F4EB473514A1B1906A9A419 /* EAccountApiSDK.framework */,
+				0ED2C37FCA2D1E419CE146BB4FD36C6B /* OAuth.framework */,
+				071EB8CD8414071BDD020690CF03297B /* TYRZUISDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B21BB65BC3F2526E3DF315114FC38B6 /* CL_ShanYanSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3D71B0EE5529FDEA9D1522079E2B735D /* Frameworks */,
+				7999F318A6CD736339E08A780CE2FB11 /* Resources */,
+				B8E5D5F540514B5C22C98E5BDFE143C0 /* Support Files */,
+			);
+			name = CL_ShanYanSDK;
+			path = CL_ShanYanSDK;
+			sourceTree = "<group>";
+		};
+		4D67B1D2A2BA60912384ECA1910564CD = {
+			isa = PBXGroup;
+			children = (
+				4B21BB65BC3F2526E3DF315114FC38B6 /* CL_ShanYanSDK */,
+				1B8350476C256835AD6DFCCE50711718 /* Frameworks */,
+				F455C790317064F957A042A06253F3B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7999F318A6CD736339E08A780CE2FB11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B094F71128E8B06CFAB274DDFAACD268 /* sdk_oauth.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B8E5D5F540514B5C22C98E5BDFE143C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6129B6666E9B1213A42C0959DB3AB93E /* CL_ShanYanSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CL_ShanYanSDK";
+			sourceTree = "<group>";
+		};
+		F455C790317064F957A042A06253F3B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8906B27A76F04D510187FC00918B9EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 736A407A3C2FAC49A059DFEF05723A7A /* Build configuration list for PBXProject "CL_ShanYanSDK" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D67B1D2A2BA60912384ECA1910564CD;
+			productRefGroup = F455C790317064F957A042A06253F3B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A884B903E470B6B45A5448D794E37B9 /* CL_ShanYanSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		21EC8C467D394B8C43C706434F078BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30F2758CBD1D8EB2CA46E5D468AD8216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6129B6666E9B1213A42C0959DB3AB93E /* CL_ShanYanSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		735DF5F599E0AE37B21CD9ACFE6FCF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6129B6666E9B1213A42C0959DB3AB93E /* CL_ShanYanSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A13693A1A2064F54F65E5BA05BE02D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		736A407A3C2FAC49A059DFEF05723A7A /* Build configuration list for PBXProject "CL_ShanYanSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC8C467D394B8C43C706434F078BDE /* Debug */,
+				A13693A1A2064F54F65E5BA05BE02D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDD18036149994A4D29678AFF13A6B3 /* Build configuration list for PBXAggregateTarget "CL_ShanYanSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				735DF5F599E0AE37B21CD9ACFE6FCF20 /* Debug */,
+				30F2758CBD1D8EB2CA46E5D468AD8216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8906B27A76F04D510187FC00918B9EB1 /* Project object */;
+}

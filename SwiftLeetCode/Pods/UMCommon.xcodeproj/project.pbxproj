@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9E107150262EBBCAD58EEF53FF44299F /* UMCommon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 67714950F4BEB0906EFC7996DFDC36BE /* Build configuration list for PBXAggregateTarget "UMCommon" */;
+			buildPhases = (
+			);
+			dependencies = (
+				575160325DBE742E893DC2969449FFF6 /* PBXTargetDependency */,
+			);
+			name = UMCommon;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		9C0A0AD9CD960247425440694BACDC87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43E12C24CDF90F9AE1ABF22B06A33987 /* UMDevice.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 857F6E4CA7F98A83C25307AF7FACF2F0;
+			remoteInfo = UMDevice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0762A3FF5AFDF9D88C4E13CECF1425 /* UMCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCommon.xcconfig; sourceTree = "<group>"; };
+		43E12C24CDF90F9AE1ABF22B06A33987 /* UMDevice */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMDevice; path = UMDevice.xcodeproj; sourceTree = "<group>"; };
+		760F49A2814D36D0705764B7ABEFC264 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = UMCommon_7.2.5/UMCommon.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		24A4352A052390094F6DE5183F13AB14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521D14EC5EABA1E7D5DDAD0A538D0364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				760F49A2814D36D0705764B7ABEFC264 /* UMCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7515249A81570A53A6FEB4793CC7A49F /* UMCommon */ = {
+			isa = PBXGroup;
+			children = (
+				521D14EC5EABA1E7D5DDAD0A538D0364 /* Frameworks */,
+				E7A232EDBD44EA078CC5A2017CCB1BC7 /* Support Files */,
+			);
+			name = UMCommon;
+			path = UMCommon;
+			sourceTree = "<group>";
+		};
+		998E8340F11DB6410A24CC4FAE366363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C13C25966407CCE370C5DD5B41C0B596 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				43E12C24CDF90F9AE1ABF22B06A33987 /* UMDevice */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		E7A232EDBD44EA078CC5A2017CCB1BC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0762A3FF5AFDF9D88C4E13CECF1425 /* UMCommon.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCommon";
+			sourceTree = "<group>";
+		};
+		ED10A4B1F22466C54F4AB4D0AB12FDDB = {
+			isa = PBXGroup;
+			children = (
+				C13C25966407CCE370C5DD5B41C0B596 /* Dependencies */,
+				24A4352A052390094F6DE5183F13AB14 /* Frameworks */,
+				998E8340F11DB6410A24CC4FAE366363 /* Products */,
+				7515249A81570A53A6FEB4793CC7A49F /* UMCommon */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		04F8598805743898D5F35DFF8CAAA85D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 5A1912665C9B615F11C377EC3300F78E /* Build configuration list for PBXProject "UMCommon" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED10A4B1F22466C54F4AB4D0AB12FDDB;
+			productRefGroup = 998E8340F11DB6410A24CC4FAE366363 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 43E12C24CDF90F9AE1ABF22B06A33987 /* UMDevice */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9E107150262EBBCAD58EEF53FF44299F /* UMCommon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXTargetDependency section */
+		575160325DBE742E893DC2969449FFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMDevice;
+			targetProxy = 9C0A0AD9CD960247425440694BACDC87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		364F89A1F85DE08BA7C5B64E995F281B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0762A3FF5AFDF9D88C4E13CECF1425 /* UMCommon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ADC7DAF4BE66671EA5EDFA4200A3E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CEA83708F0242F06CEB9473F95CACB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0762A3FF5AFDF9D88C4E13CECF1425 /* UMCommon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1E8414FCE81FB7B21B8D265C91593E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A1912665C9B615F11C377EC3300F78E /* Build configuration list for PBXProject "UMCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E8414FCE81FB7B21B8D265C91593E2 /* Debug */,
+				3ADC7DAF4BE66671EA5EDFA4200A3E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67714950F4BEB0906EFC7996DFDC36BE /* Build configuration list for PBXAggregateTarget "UMCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364F89A1F85DE08BA7C5B64E995F281B /* Debug */,
+				CEA83708F0242F06CEB9473F95CACB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F8598805743898D5F35DFF8CAAA85D /* Project object */;
+}

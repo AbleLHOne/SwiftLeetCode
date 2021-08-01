@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3695C628146FAE949BF799DB301728 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = CD96ABAFE2ADEFBC4CD718E8973BE0E5 /* UITextView+Placeholder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3D45DA1BE124264F7DA8B024BAC39082 /* UITextView+Placeholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B04DF43B86B5C7853CC7F06CA6157750 /* UITextView+Placeholder-dummy.m */; };
+		84600A1F877B79C18F90D34BAAE7DF2B /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D1A18E8F916D01AF29D6F906C19BD1 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39D1A18E8F916D01AF29D6F906C19BD1 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "Sources/UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		50A0BC61CEAD2A528F35B103ECC84EFC /* libUITextView+Placeholder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUITextView+Placeholder.a"; path = "libUITextView+Placeholder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CF1F19439B5E85429AF968DB3D3AD6 /* UITextView+Placeholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-prefix.pch"; sourceTree = "<group>"; };
+		A07C08D78B126BB4605E21306B8BEBCC /* UITextView+Placeholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITextView+Placeholder.xcconfig"; sourceTree = "<group>"; };
+		B04DF43B86B5C7853CC7F06CA6157750 /* UITextView+Placeholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder-dummy.m"; sourceTree = "<group>"; };
+		CD96ABAFE2ADEFBC4CD718E8973BE0E5 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "Sources/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51C87399FCE3A63C9B7C3D56FDFCFF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059843B561BB8496A7C7CCFBCD8E7D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F4C42CEF0C19DF880A28348EBF85335 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A07C08D78B126BB4605E21306B8BEBCC /* UITextView+Placeholder.xcconfig */,
+				B04DF43B86B5C7853CC7F06CA6157750 /* UITextView+Placeholder-dummy.m */,
+				61CF1F19439B5E85429AF968DB3D3AD6 /* UITextView+Placeholder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+		E3CF07A1E3FB1BD662AF696A88532376 = {
+			isa = PBXGroup;
+			children = (
+				059843B561BB8496A7C7CCFBCD8E7D14 /* Frameworks */,
+				EB4F3AE6A23FA4AF11E1F0B08FE75EC9 /* Products */,
+				F852750A14E0A294335959EB8B2A8B4C /* UITextView+Placeholder */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4F3AE6A23FA4AF11E1F0B08FE75EC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A0BC61CEAD2A528F35B103ECC84EFC /* libUITextView+Placeholder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F852750A14E0A294335959EB8B2A8B4C /* UITextView+Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				39D1A18E8F916D01AF29D6F906C19BD1 /* UITextView+Placeholder.h */,
+				CD96ABAFE2ADEFBC4CD718E8973BE0E5 /* UITextView+Placeholder.m */,
+				6F4C42CEF0C19DF880A28348EBF85335 /* Support Files */,
+			);
+			name = "UITextView+Placeholder";
+			path = "UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A5A207D743AF94331B2546D3ADD5D9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84600A1F877B79C18F90D34BAAE7DF2B /* UITextView+Placeholder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		906EDD0C4C239FD21D1E23F360F8E43E /* UITextView+Placeholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341E8DC7B4D5B4AC4AD66847F1D1BB85 /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */;
+			buildPhases = (
+				7A5A207D743AF94331B2546D3ADD5D9F /* Headers */,
+				0B60B3A348D328473BB1BFAECC7A3A13 /* Sources */,
+				51C87399FCE3A63C9B7C3D56FDFCFF96 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextView+Placeholder";
+			productName = "UITextView+Placeholder";
+			productReference = 50A0BC61CEAD2A528F35B103ECC84EFC /* libUITextView+Placeholder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842398705BE3CB52EF2277DAD329DED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 539D782AB7276B6A55A23D543F13FCE3 /* Build configuration list for PBXProject "UITextView+Placeholder" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3CF07A1E3FB1BD662AF696A88532376;
+			productRefGroup = EB4F3AE6A23FA4AF11E1F0B08FE75EC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				906EDD0C4C239FD21D1E23F360F8E43E /* UITextView+Placeholder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B60B3A348D328473BB1BFAECC7A3A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D45DA1BE124264F7DA8B024BAC39082 /* UITextView+Placeholder-dummy.m in Sources */,
+				0B3695C628146FAE949BF799DB301728 /* UITextView+Placeholder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AB16FAE6D667B72B4E9004DD3AD485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7C1C7E36D3AAEB4DCEE1FCC96E7BC757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07C08D78B126BB4605E21306B8BEBCC /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UITextView_Placeholder;
+				PRODUCT_NAME = "UITextView+Placeholder";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DC204A54D6877437CDE20A46BE34324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD707FC2D004C798357249A2304EECB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07C08D78B126BB4605E21306B8BEBCC /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = UITextView_Placeholder;
+				PRODUCT_NAME = "UITextView+Placeholder";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341E8DC7B4D5B4AC4AD66847F1D1BB85 /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD707FC2D004C798357249A2304EECB5 /* Debug */,
+				7C1C7E36D3AAEB4DCEE1FCC96E7BC757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539D782AB7276B6A55A23D543F13FCE3 /* Build configuration list for PBXProject "UITextView+Placeholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC204A54D6877437CDE20A46BE34324 /* Debug */,
+				2AB16FAE6D667B72B4E9004DD3AD485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842398705BE3CB52EF2277DAD329DED7 /* Project object */;
+}

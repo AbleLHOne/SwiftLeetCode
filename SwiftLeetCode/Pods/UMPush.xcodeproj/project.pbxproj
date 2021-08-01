@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1B4C15EC2F685521B6405A2830C10FE4 /* UMPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7EC1CA57EBF26AB9C085A615852A2543 /* Build configuration list for PBXAggregateTarget "UMPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+				FC0FA279F2C96BEEEE6D32DBE2DFAF87 /* PBXTargetDependency */,
+			);
+			name = UMPush;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		171E87B7ADEE0BE7D8E0B8AF6E1A0E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD3AAC85947BDA1940C0224EB52782C /* UMCommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E107150262EBBCAD58EEF53FF44299F;
+			remoteInfo = UMCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A087C5A5040B0C3A21E7151EEBACBA08 /* UMPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMPush.xcconfig; sourceTree = "<group>"; };
+		ABD3AAC85947BDA1940C0224EB52782C /* UMCommon */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCommon; path = UMCommon.xcodeproj; sourceTree = "<group>"; };
+		D1C2DD8957A49C7F2D31512649CD69EA /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMPush.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		66F522FF82843E15EF5C08B12D9CB5A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				ABD3AAC85947BDA1940C0224EB52782C /* UMCommon */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		960280A6C3269BCE1CA75785A8A3C835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1C2DD8957A49C7F2D31512649CD69EA /* UMPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A365D33AA2374240ACF39BBEBC79E174 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A087C5A5040B0C3A21E7151EEBACBA08 /* UMPush.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMPush";
+			sourceTree = "<group>";
+		};
+		B294635CE6AB8BC3E62AEE04C5FECB93 /* UMPush */ = {
+			isa = PBXGroup;
+			children = (
+				960280A6C3269BCE1CA75785A8A3C835 /* Frameworks */,
+				A365D33AA2374240ACF39BBEBC79E174 /* Support Files */,
+			);
+			name = UMPush;
+			path = UMPush;
+			sourceTree = "<group>";
+		};
+		D76767B9D5737CA0F7D2AF9C154DF9EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD634427C77DF01CAE396DA58EEA38AD = {
+			isa = PBXGroup;
+			children = (
+				66F522FF82843E15EF5C08B12D9CB5A0 /* Dependencies */,
+				D76767B9D5737CA0F7D2AF9C154DF9EA /* Frameworks */,
+				DE2BD73A00B636DECFEA371705FD0B5D /* Products */,
+				B294635CE6AB8BC3E62AEE04C5FECB93 /* UMPush */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2BD73A00B636DECFEA371705FD0B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		1D4E6A26970FFAD7D65351BEB137CC4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = A1C36A533BDD20CA592391B7B4A7DEDC /* Build configuration list for PBXProject "UMPush" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD634427C77DF01CAE396DA58EEA38AD;
+			productRefGroup = DE2BD73A00B636DECFEA371705FD0B5D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = ABD3AAC85947BDA1940C0224EB52782C /* UMCommon */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1B4C15EC2F685521B6405A2830C10FE4 /* UMPush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXTargetDependency section */
+		FC0FA279F2C96BEEEE6D32DBE2DFAF87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCommon;
+			targetProxy = 171E87B7ADEE0BE7D8E0B8AF6E1A0E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		458D2D6D49FE94371953EC7A1D6B0596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A087C5A5040B0C3A21E7151EEBACBA08 /* UMPush.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF712805F4132BB2D0E80D0B467F7AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6ADC73062C7B9E0B965F288C552024D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F62E8F841CA5B85E594E217409FF5A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A087C5A5040B0C3A21E7151EEBACBA08 /* UMPush.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EC1CA57EBF26AB9C085A615852A2543 /* Build configuration list for PBXAggregateTarget "UMPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62E8F841CA5B85E594E217409FF5A30 /* Debug */,
+				458D2D6D49FE94371953EC7A1D6B0596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C36A533BDD20CA592391B7B4A7DEDC /* Build configuration list for PBXProject "UMPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF712805F4132BB2D0E80D0B467F7AD1 /* Debug */,
+				E6ADC73062C7B9E0B965F288C552024D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D4E6A26970FFAD7D65351BEB137CC4F /* Project object */;
+}

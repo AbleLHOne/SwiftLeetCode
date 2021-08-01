@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53EBFEA341EF0CF601075DD8F666E85A /* YYKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4B8411C5DDD5C2FE227C33E2B1F87 /* YYKeyboardManager-dummy.m */; };
+		60B7D02CF8F05B01900BA30F424099A5 /* YYKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D9AAE062021417D1E9C39B079D2B2A /* YYKeyboardManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		693E95BAA25E04CB1D33CCA6E3B7F571 /* YYKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 47EB633370F83C417616CE93AE283A71 /* YYKeyboardManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C04F6262CCE6D4425D0E52CD03BCB65 /* YYKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		25E9400F98E80D47DE4A78AB1FE70DF9 /* libYYKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYKeyboardManager.a; path = libYYKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D9AAE062021417D1E9C39B079D2B2A /* YYKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKeyboardManager.m; path = YYKeyboardManager/YYKeyboardManager.m; sourceTree = "<group>"; };
+		47EB633370F83C417616CE93AE283A71 /* YYKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKeyboardManager.h; path = YYKeyboardManager/YYKeyboardManager.h; sourceTree = "<group>"; };
+		6B651DF83C0ED80FA7237413D6D4435B /* YYKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		A9B4B8411C5DDD5C2FE227C33E2B1F87 /* YYKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F6B4E35D56BA7D0C55165B01585C3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0013B2E989AE9317EDDE2E34511EC43B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E9400F98E80D47DE4A78AB1FE70DF9 /* libYYKeyboardManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541AC72C03AEC6DDD3593481C1409DF2 /* YYKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				47EB633370F83C417616CE93AE283A71 /* YYKeyboardManager.h */,
+				28D9AAE062021417D1E9C39B079D2B2A /* YYKeyboardManager.m */,
+				7132946E0BB9E6979A153A569A996999 /* Support Files */,
+			);
+			name = YYKeyboardManager;
+			path = YYKeyboardManager;
+			sourceTree = "<group>";
+		};
+		7132946E0BB9E6979A153A569A996999 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C04F6262CCE6D4425D0E52CD03BCB65 /* YYKeyboardManager.xcconfig */,
+				A9B4B8411C5DDD5C2FE227C33E2B1F87 /* YYKeyboardManager-dummy.m */,
+				6B651DF83C0ED80FA7237413D6D4435B /* YYKeyboardManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYKeyboardManager";
+			sourceTree = "<group>";
+		};
+		8CF53628EF1392C6DEE206C5A3763104 = {
+			isa = PBXGroup;
+			children = (
+				DCD30224F88C0906BDB71F85A76E3CFE /* Frameworks */,
+				0013B2E989AE9317EDDE2E34511EC43B /* Products */,
+				541AC72C03AEC6DDD3593481C1409DF2 /* YYKeyboardManager */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD30224F88C0906BDB71F85A76E3CFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BF7C2901A3DC4AB5E5DFB31A3CE7FA6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693E95BAA25E04CB1D33CCA6E3B7F571 /* YYKeyboardManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BF281AF3A7138EC79EDA081A8B1A0C1 /* YYKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93869A6467E6EC0FC875501152D5DC37 /* Build configuration list for PBXNativeTarget "YYKeyboardManager" */;
+			buildPhases = (
+				BF7C2901A3DC4AB5E5DFB31A3CE7FA6A /* Headers */,
+				962DEE7F1C8BE6FB500A4F0C45CABAB2 /* Sources */,
+				2F6B4E35D56BA7D0C55165B01585C3D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYKeyboardManager;
+			productName = YYKeyboardManager;
+			productReference = 25E9400F98E80D47DE4A78AB1FE70DF9 /* libYYKeyboardManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4CE0419203216E6800789B39297D854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = A4DCE56AF8B07F7EE666F047DE7F4015 /* Build configuration list for PBXProject "YYKeyboardManager" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CF53628EF1392C6DEE206C5A3763104;
+			productRefGroup = 0013B2E989AE9317EDDE2E34511EC43B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF281AF3A7138EC79EDA081A8B1A0C1 /* YYKeyboardManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962DEE7F1C8BE6FB500A4F0C45CABAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EBFEA341EF0CF601075DD8F666E85A /* YYKeyboardManager-dummy.m in Sources */,
+				60B7D02CF8F05B01900BA30F424099A5 /* YYKeyboardManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24DF47178D6D01C2A1ED11EC9641646A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6FB9B84DAFF4E7B1CBD6FC0A00C337C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B897A716FDDB58FF620F13A22CC104C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C04F6262CCE6D4425D0E52CD03BCB65 /* YYKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYKeyboardManager/YYKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYKeyboardManager;
+				PRODUCT_NAME = YYKeyboardManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB52E1C087336CCE630DFEFB8FC72FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C04F6262CCE6D4425D0E52CD03BCB65 /* YYKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/YYKeyboardManager/YYKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYKeyboardManager;
+				PRODUCT_NAME = YYKeyboardManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93869A6467E6EC0FC875501152D5DC37 /* Build configuration list for PBXNativeTarget "YYKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B897A716FDDB58FF620F13A22CC104C1 /* Debug */,
+				EB52E1C087336CCE630DFEFB8FC72FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DCE56AF8B07F7EE666F047DE7F4015 /* Build configuration list for PBXProject "YYKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB9B84DAFF4E7B1CBD6FC0A00C337C2 /* Debug */,
+				24DF47178D6D01C2A1ED11EC9641646A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4CE0419203216E6800789B39297D854 /* Project object */;
+}
